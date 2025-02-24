@@ -1,0 +1,257 @@
+:root {
+  --light: #f6f6f9;
+  --primary: #1976D2;
+  --light-primary: #CFE8FF;
+  --grey: #eee;
+  --dark-grey: #AAAAAA;
+  --dark: #363949;
+  --danger: #D32F2F;
+  --light-danger: #FECDD3;
+  --warning: #FBC02D;
+  --light-warning: #FFF2C6;
+  --success: #388E3C;
+  --light-success: #BBF7D0;
+  --light-gray: #F2F0FF;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body.dark {
+  --light: #181a1e;
+  --grey: #25252c;
+  --dark: #fbfbfb;
+}
+
+body.light {
+  background-color: var(--light);
+  color: black;
+}
+
+.DashboardContainer {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+ 
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark mode */
+}
+
+.DashboardContainer.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.DashboardLayout {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Sidebar on the left */
+.SidebarContainer {
+  background-color: aqua;
+  width: 15%;
+  transition: width 0.3s;
+}
+
+.SidebarContainer.collapsed {
+  width: 0;
+  overflow: hidden;
+}
+
+.MainContent {
+  transition: width 0.3s ease;
+  height: 100%;
+  
+  overflow-y: auto;
+}
+
+
+
+
+
+
+/* Custom scrollbar styling */
+.MainContent::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+}
+
+/* Track (background) */
+.MainContent::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
+}
+
+/* Handle */
+.MainContent::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent handle color */
+  
+  border-radius: 10px; /* Rounded corners for the scrollbar handle */
+}
+
+/* Hover effect on the scrollbar handle */
+.MainContent::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+.MainContent.left-open {
+  width: calc(100% - 15%); /* When only the left sidebar is open */
+}
+
+/* .MainContent.right-open {
+  width: calc(100% - 20%); 
+  
+} */
+/* When only the right sidebar is open */
+
+/* .MainContent.both-open {
+  width: calc(100% - 35%); 
+  
+} */
+.MainContent.both-open {
+  width: calc(100% - 15%); 
+  
+}
+
+/* When both sidebars are open */
+/* Default: when no sidebar is open */
+.MainContent {
+  width: 100%;
+}
+
+/* Right sidebar */
+.RightSidebarContainer {
+  background-color: #6c87a1;
+  width: 20%;
+  transition: width 0.3s;
+}
+
+.RightSidebarContainer.collapsed {
+  width: 0;
+  overflow: hidden;
+}
+
+
+
+/* Navbar at the top */
+.NavbarContainer {
+  /* height: 70px; */
+  /* background-color: var(--primary); */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+
+
+
+
+.DashboardContainerMiddle {
+  /* display: flex;                  */
+  justify-content: center;      
+  align-items: start;         
+  width: 100%;                 
+  /* width: 80%;                  */
+  height: calc(100% - 70px);                  /* Full height */
+  padding: 20px;                 /* Add padding as needed */
+  box-sizing: border-box;        /* Include padding in width/height calculations */
+  background-color: var(--light-gray);
+}
+
+.MainDashbaordPartModifiedVersion{
+  display: flex;
+  flex-direction: row;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* Media Query for small screens from 320px to 880px */
+@media (min-width: 420px) and (max-width: 520px) {
+  .SidebarContainer {
+   
+    width: 20%; /* Sidebar covers 70% of the screen when open */
+
+  }
+
+}
+@media (max-width: 880px) {
+
+/* 
+  .Sidebar{
+    padding-right: 1px;
+    padding-left: ;
+  } */
+
+  .RightSidebar1.open{
+    width: 50%;
+  }
+
+  .SidebarContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%; /* Sidebar covers 70% of the screen when open */
+    height: 100%;
+    z-index: 1000; /* Ensure the sidebar is on top of the main content */
+
+    transition: transform 0.3s ease;
+    transform: translateX(-100%); /* Hide sidebar by default */
+  }
+
+  .SidebarContainer.collapsed {
+    transform: translateX(-100%); /* Move the sidebar off the screen */
+  }
+
+  .SidebarContainer:not(.collapsed) {
+    transform: translateX(0); /* Show the sidebar when not collapsed */
+  }
+
+
+
+
+
+  .RightSidebarContainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%; /* Sidebar covers 70% of the screen when open */
+    height: 100%;
+    z-index: 1000; /* Ensure the sidebar is on top of the main content */
+
+    transition: transform 0.3s ease;
+    transform: translateX(+100%); /* Hide sidebar by default */
+  }
+
+  .RightSidebarContainer.collapsed {
+    transform: translateX(+100%); /* Move the sidebar off the screen */
+  }
+
+  .RightSidebarContainer:not(.collapsed) {
+    transform: translateX(0); /* Show the sidebar when not collapsed */
+  }
+
+  
+  .MainContent.left-open {
+    width: calc(100% + 15%); /* When only the left sidebar is open */
+  }
+  
+  .MainContent.right-open {
+    width: calc(100% + 20%); /* When only the right sidebar is open */
+  }
+  
+  .MainContent.both-open {
+    width: calc(100% + 35%); /* When both sidebars are open */
+  }
+
+ 
+}
+

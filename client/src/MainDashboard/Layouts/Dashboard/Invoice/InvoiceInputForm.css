@@ -1,0 +1,432 @@
+.MainDivOfInvoiceee {
+    padding: 20px 40px;
+  }
+  
+
+  
+  .ThirdRowOfInputInvoice {
+    margin-bottom: 170px;
+  }
+  
+  .ImageOfLogoSecInvoice {
+    width: 56px;
+    height: 50px;
+  }
+  
+  .SpanOfInstaskrInvoiceText {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .MainDivOfBusinessAddresss {
+    text-align: end;
+    margin-top: 13px;
+    margin-bottom: 55px;
+  }
+  
+  .TextOfBusinessAddress {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5e6470;
+    margin: 2px;
+  }
+  
+
+
+  
+  
+  
+  .TextOfNote {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    color: #5e6470;
+  }
+  
+  .LastDivOfTextOfNote {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #5e6470;
+    margin-top: 8px;
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* --------------------   1st------------------- */
+
+  .TextOfDueDate {
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5e6470;
+    margin-bottom: 8px;
+    text-align: start;
+  }
+  
+  .InputOfDueDate {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a221f7;
+    border-radius: 5px;
+  }
+  
+ 
+
+
+
+
+
+  /* ------------------client and receiver details---------- */
+
+  .MainDivOfInvoiceee {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SecondRowOfInputInvoice {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .DivOfRecieverName {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .InputOfRecieverName {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #a221f7;
+    font-size: 16px;
+    color: #1a1c21;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .InputOfRecieverName:focus {
+    outline: none;
+    border-color: #7a25f5;
+  }
+  
+  .TextOfBillToo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #1a1c21;
+  }
+  
+  /* .ColumnOfTextBillFrom {
+    margin-top: 40px;
+  } */
+  
+  @media (max-width: 768px) {
+    .ColumnOfTextBillFrom {
+      margin-top: 20px;
+    }
+  
+    .DivOfRecieverName {
+      gap: 15px;
+    }
+  
+    .InputOfRecieverName {
+      font-size: 14px;
+      padding: 10px 12px;
+    }
+  
+    .TextOfBillToo {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .InputOfRecieverName {
+      font-size: 14px;
+      padding: 8px 10px;
+    }
+  
+    .TextOfBillToo {
+      font-size: 20px;
+      text-align: start;
+    }
+  }
+  
+
+  /* -------------------------------product items---------------- */
+
+  .MainDivOfInvoiceee {
+    padding: 20px 40px;
+  }
+  
+  .ThirdRowOfInputInvoice {
+    margin-bottom: 50px;
+  }
+  
+  .TextOfItemDetails {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    color: #1a1c21;
+    margin-bottom: 28px;
+  }
+  
+  .ItemRow {
+    margin-bottom: 20px;
+  }
+  
+  .InputOfItemDescription {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #a221f7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a1c21;
+    width: 100%;
+    resize: none; /* Prevent textarea from being resizable */
+  }
+  
+  .textarea-item {
+    height: 58px;
+  }
+  
+  .SEcInputOfItemDescription,
+  .ThirdInputOfItemDescription {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #a221f7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a1c21;
+    width: 100%;
+  }
+  
+  .ButtonOfAddItems {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3598f3;
+    border: 1px solid #b959f9;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .RemoveItemButton {
+    background: red;
+    border: none;
+    color: white;
+    /* padding: 5px 5px; */
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+
+
+
+
+
+  .SubtotalSection {
+    margin-top: 20px;
+    /* border: 1px solid #a221f7; */
+  }
+  
+  .Label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .ValueInput {
+    width: 50px; /* Fixed width for the input */
+    /* border: 1px solid #ccc; */
+    border: 1px solid #a221f7;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .Value {
+    font-weight: bold;
+  }
+  
+
+
+/* --------thanks messaeg------ */
+
+.InvoiceDetails {
+    margin-top: 10px; /* Space between the note and invoice details */
+    border: 1px solid #a221f7;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .TextOfNote {
+    margin-bottom: 10px; /* Space below the note title */
+    margin-top: 10px; /* Space below the note title */
+  }
+  
+  .LastDivOfTextOfNote {
+    margin-bottom: 20px; /* Space below the thank you message */
+    font-style: italic; /* Optional: Style the message for emphasis */
+    text-align: left; /* Align text to the left for consistency */
+  }
+  
+  .Label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #1a1c21;
+  }
+  
+  .Value {
+    font-weight: bold;
+    color: #1a1c21;
+  }
+  
+
+
+
+
+/* Style for Currency Dropdown */
+.CurrencySelect {
+    padding: 8px 12px;
+    border: 1px solid #a221f7;
+    border-radius: 4px;
+    font-size: 1rem; /* Font size */
+    color: #495057; /* Text color */
+    background-color: #fff; /* Background color */
+    transition: border-color 0.2s ease; /* Smooth transition on hover/focus */
+    width: 100%; /* Make it full width */
+  }
+  
+  .CurrencySelect:focus {
+    border-color: #80bdff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+/* Responsive styling */
+@media (max-width: 576px) {
+    .CurrencySelect,
+    .InputOfRecieverName,
+    .ValueInput,
+    .InputOfDueDate {
+      font-size: 0.9rem; /* Smaller font on mobile */
+    }
+  }  
+
+
+
+
+
+
+
+
+
+  .item-list {
+    margin: 20px;
+  }
+  
+
+  
+  .ItemRow {
+    margin-bottom: 10px; /* Spacing between rows */
+  }
+
+  .ColHeadingName{
+
+
+    font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 14px;
+text-align: left;
+
+margin-bottom: 10px;
+
+  }
+
+
+
+  @media (min-width: 320px) and (max-width: 767px) {
+
+
+    .item-list {
+      margin: 0px;
+    }
+    .ColHeadingName{
+        display: none;
+    }
+  }
+
+
+
+
+/* ------------------------------------------------- */
+  .preview-button11 {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Vertical and horizontal padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+  }
+  
+  .preview-button11:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .preview-button11:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Add a subtle focus ring */
+  }
+  
+
+  /* ------------popup----------- */
+
+  .popup-overlayInvoice111 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    padding: 10px;
+  
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-contentInvoice111 {
+    background: white;
+    /* padding: 10px; */
+    height: 100vh;
+    max-height: 100vh;
+    /* overflow-y: auto; */
+  
+    
+  }
+  

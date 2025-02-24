@@ -1,0 +1,232 @@
+
+
+
+
+
+
+.nav-item{
+  /* margin-left: 5px; */
+  margin-right: 4px;
+}
+
+
+
+.MainDivOfNAvbar {
+  /* width: 100%; */
+  width: 95%;
+  border-radius: 50px;
+  margin-top: 10px;
+  /* background: rgba(163, 158, 158, 1); */
+  /* background:#c690ff; */
+  background:white;
+  color: rgba(5, 5, 5, 1);
+  box-shadow: 0 4px 8px rgba(163, 144, 255, 0.4); /* Purple shadow */
+  /* border: 1px solid #c690ff;  */
+}
+
+.MainNavItem{
+  font-weight: 500;
+  color:black !important;
+}
+
+
+
+
+.MainCircleofNav{
+  width: 150px;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* .MainCircleofNav{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:black;
+} */
+.MainCircleofNav img{
+  width:80%;
+  height: auto;
+}
+.ButtonOfRequestDemo{
+  border: none;
+  background-color: transparent;
+}
+.ButtonOfLogIn{
+  border: none;
+  background-color: transparent;
+}
+.ButtonOfIntaskar{
+  width: 133px;
+  height: 37px;
+  border-radius: 5px;
+  background: rgba(18, 18, 18, 1);
+  font-family: Inter;
+  font-size: 14.5px;
+  font-weight: 600;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+.BorderDesignGetInstaKrfReeButton{
+  margin-top: 10px !important;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+
+
+.LoginParentLi,.GetInstaKrParentLi{
+
+  margin-left: 5px;
+  margin-right: 5px;
+  
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+  
+}
+
+.BorderDesignLoginButton,.BorderDesignGetInstaKrfReeButton  {
+  background: #9D34DA;
+
+  /* background-color: ; */
+  /* background-color: #F6F5F4; */
+  border-radius:20px;
+  /* padding: 2px 5px 2px 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 35px;
+color: white !important;
+}
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 4000px) {
+
+/* Navbar.css */
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Adjust as necessary */
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+
+
+
+
+
+
+/* ----------------------------------- */
+
+.LoginParentLi{
+
+  margin-left: 5px;
+  margin-right: 5px;
+  
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+
+  
+}
+
+.BorderDesignLoginButton{
+  background: #9D34DA;
+
+  /* background-color: ; */
+  /* background-color: #F6F5F4; */
+  border-radius:20px;
+  /* padding: 2px 5px 2px 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 35px;
+/* color: white; */
+}
+.MainNavItemLogin{
+  font-weight: 500;
+  color:white !important;
+}
+.MainNavItemLogin:hover{
+  
+  color:black !important;
+}
+
+
+.MainNavItem:hover{
+  /* font-weight: 500; */
+  color: #9D34DA !important;
+}
+
+.GetInstaKrParentLi{
+
+
+  margin-left: 5px;
+  margin-right: 5px;
+  
+  display: flex;
+  align-items: center;
+ 
+}
+
+.BorderDesignGetInstaKrfReeButton{
+  font-weight: 500;
+  border-radius:20px;
+  padding: 2px 5px 2px 5px;
+  color:white !important;
+  background: #9D34DA;
+
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+  width: 150px;
+}
+
+}
+
+
+.newOneButton:hover{
+  border:1px solid #9D34DA;
+  background: white;
+  color: #9D34DA !important;
+}

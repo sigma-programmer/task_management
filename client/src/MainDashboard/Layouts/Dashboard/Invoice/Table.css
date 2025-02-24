@@ -1,0 +1,262 @@
+#TableRowData11 {
+  border: 2px solid #FFFFFF;
+  border-radius: 10px !important;
+  }
+  
+  .name-with-avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .email-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust gap as needed */
+  }
+  
+  .email-icon svg {
+    color: white; /* Change the color as needed */
+  }
+  .status {
+    width: 159.91px;          /* Fixed width */
+    height: 44.89px;         /* Fixed height */
+    border-radius: 22.5px; /* Rounded corners */
+   /* border: 1px solid white; */
+    background: rgba(255, 255, 255, 0.212);     /* Background color */
+    display: flex;           /* Use flex to align content */
+    align-items: center;     /* Center align vertically */
+    justify-content: center;  /* Center align horizontally */
+  }
+
+  .responsive-table .complete {
+    color: white;
+  }
+  
+  .responsive-table .pending {
+    color: #f39c12; 
+  }
+  
+  .responsive-table .cancel {
+    color: #e74c3c; 
+  }
+
+.table-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto;
+  position: relative;
+  min-height: 100vh;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 20px; 
+}
+
+.responsive-table th, 
+.responsive-table td {
+  /* padding: 15px; */
+  text-align: left;
+  min-height: 60px;
+}
+
+.responsive-table th {
+  background-color: #F2F0FF; /* Header background */
+  color: #333;
+}
+
+.responsive-table tr.even-row {
+  color: white;
+  background-color: #AFA4F7; /* First row color */
+  font-weight: 600;
+}
+
+.responsive-table tr.odd-row {
+  color: white;
+  font-weight: 600;
+  background-color: #A193FF; /* Alternating row color */
+}
+
+.responsive-table td input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+/* .responsive-table .status {
+  padding: 10px 16px;
+  border-radius: 21px;
+  text-align: center;
+  font-weight: bold;
+} */
+
+
+
+.responsive-table .star-icon {
+  color: #f1c40f;
+  cursor: pointer;
+}
+
+.MainDivOfAdd-Button {
+  display: flex;
+  margin-top: 2px;
+}
+
+.TableOfStar-Iconn {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.MainDivOfdots-container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menuNeww {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px; /* Increased padding for better touch target */
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px;
+  font-weight: bold;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.dropdown-menuNeww button {
+  background: #18172ee0; /* Semi-transparent dark background */
+  border: none;
+  padding: 4px 8px; /* Added padding for a better button size */
+  cursor: pointer;
+  text-align: left;
+  color: white;
+  border-radius: 5px; /* Rounded button corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  display: flex; /* Flexbox for icon and text alignment */
+  align-items: center; /* Center icon vertically */
+}
+
+.dropdown-menuNeww button:hover {
+  background-color: #f0f0f0; /* Light background on hover */
+  color: rgb(39, 33, 33); /* Dark text on hover */
+}
+
+.IconOfEditInvoice {
+  width: 16px; /* Increased icon size for better visibility */
+  height: 16px;
+  
+  margin-right: 8px; /* Spacing between icon and text */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .dropdown-menuNeww {
+   
+    box-shadow: none; /* Remove shadow for a flat design */
+    border-radius: 0; /* Remove rounded corners on mobile */
+  }
+
+  .dropdown-menuNeww button {
+    justify-content: center; /* Center button text on small screens */
+  }
+}
+
+@media (max-width: 320px) {
+  .dropdown-menuNeww {
+    padding: 5px; /* Decrease padding for very small screens */
+  }
+
+  .dropdown-menuNeww button {
+    padding: 8px; /* Adjust button padding */
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start; /* Align pagination to the left */
+  gap: 5px;
+  margin-left: auto;
+}
+
+.pagination button {
+  background: #AFA4F7;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: #fff;
+}
+.MainDivOfPaginattionn{
+  display: flex;
+}
+
+.pagination button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .responsive-table th, 
+  .responsive-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .add-button {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-table th, 
+  .responsive-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .add-button {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+

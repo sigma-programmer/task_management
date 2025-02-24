@@ -1,0 +1,17 @@
+/* .google-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   */
+  .google-login-container .google-login-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .google-login-container img {
+    width: 40px; /* Adjust the size of the Google icon */
+    height: auto;
+  }
+  

@@ -1,0 +1,131 @@
+
+
+
+
+
+
+
+
+
+
+.MainCircleofFooterMain{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:black;
+}
+.MainCircleofFooterMain img{
+    width:80%;
+    height: auto;
+  }
+
+
+
+
+.MainSectionOfFooter {
+    width: 100%;
+    background: rgba(46, 46, 46, 1);
+    color: rgba(255, 255, 255, 1);
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.MainRowOfFooter {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MainDivOfFooterLogo {
+    display: flex;
+    gap: 10px;
+}
+
+.BottomOfFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ButtonOfGlEng {
+    width: 122px;
+    height: 36px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.15)
+}
+
+.IconOfSocial {
+    width: 25px;
+    height: 25px;
+}
+
+.DivOfUL {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.TopicOfFooter {
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.03799999877810478px;
+    text-align: left;
+}
+
+.DivOfSecUL {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.014000000432133675px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 20px;
+}
+.TextOfShare{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.10100000351667404px;
+text-align: center;
+}
+.SecTextOfShare{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.10100000351667404px;
+text-align: left;
+color: rgba(255, 255, 255, 0.4);
+}
+
+
+.IconOfSocial {
+    color: white; /* Set icon color to white */
+    font-size: 24px; /* Adjust size if needed */
+  }
+  
+  .IconOfSocial:hover {
+    color: lightgray; /* Change color on hover if desired */
+  }
+  
+@media (min-width: 320px) and (max-width: 520px) {
+ 
+
+.TopicOfFooter{
+    font-size: 20px;
+}}

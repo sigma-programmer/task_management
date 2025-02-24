@@ -1,0 +1,599 @@
+.FistParaofHome {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -1.9210000038146973px;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    color:black;
+}
+
+.SecondParaOfHome {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.41999998688697815px;
+    text-align: center;
+    padding-bottom: 25px;
+    color:#9D34DA;
+    
+}
+
+.ButtonOfIntaskr {
+    width: 163px;
+    height: 36px;
+    border-radius: 5px;
+    /* background: rgba(18, 18, 18, 1); */
+    background: #9D34DA;
+    border:none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.SecButtonOfIntaskr {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    width: 163px;
+    height: 36px;
+    line-height: 24px;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    /* color: rgba(10, 133, 209, 1); */
+    color: #9D34DA;
+    border: none;
+
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.ArrowIcon{
+    font-weight: 800;
+    font-size: 22px;
+}
+.MainDivOfButtonreq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 45px;
+}
+
+.RowOfFigma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.RowOfFigma1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.RowOfFigma2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 50px;
+}
+
+.ImageOfHeroPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainDivOfCard {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.FirstCardText {
+    font-family: Inter;
+    font-size: 19.69px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.23600000143051147px;
+    text-align: left;
+    color: rgba(5, 5, 5, 1);
+}
+
+.FirstCardOfSEcText {
+    font-family: Inter;
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.10100000351667404px;
+    text-align: left;
+    color: rgba(5, 5, 5, 1);
+}
+
+.CardOfCentralize {
+    width: 192px;
+    height: 181px;
+    padding: 18px 18px 14px 18px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 2px solid rgba(246, 245, 244, 1);
+    background: rgba(246, 245, 244, 1);
+}
+
+.DivOfCenteralizeIcon {
+    width: 32px;
+    height: 32px;
+  
+    gap: 0px;
+    border-radius: 5px;
+    background: rgba(255, 246, 214, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color:rgb(209, 209, 29);
+}
+
+
+.BrandImagesInHomePage{
+    width:95%;
+    height:auto;
+}
+.DivOfCenteralizeIcon1 {
+    width: 32px;
+    height: 32px;
+   
+    gap: 0px;
+    border-radius: 5px;
+    background: rgba(252, 233, 232, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.DivOfCenteralizeIcon2 {
+    width: 32px;
+    height: 32px;
+  
+    gap: 0px;
+    border-radius: 5px;
+    background: rgba(226, 236, 243, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color:blue;
+}
+
+.DivOfCenteralizeIcon3 {
+    width: 32px;
+    height: 32px;
+  
+    gap: 0px;
+    border-radius: 5px;
+    background: rgba(252, 231, 217, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: orange;
+}
+
+/* ******SEcondSection********* */
+.TextOfThousand {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -1.2100000381469727px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}
+
+.SecTextOfThousand {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: center;
+    /* color: rgba(18, 18, 18, 1); */
+    color: #9D34DA;
+}
+
+.TextOfIntaskkr {
+    font-family: Georgia;
+    font-size: 28.83px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.6240000128746033px;
+    text-align: center;
+    /* color: rgba(18, 18, 18, 1); */
+    color: #9D34DA;
+    margin-bottom: 5px;
+}
+
+.TextOfEveryTeam {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -1.2100000381469727px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+    margin-top: 40px;
+}
+
+.MainCardOfEveryTeam {
+    width: 155px;
+    height: 125px;
+   
+    padding: 12px 28px 14px 28px;
+    align-items:center;
+    justify-content: center;
+    gap: 0px;
+    border-radius: 12px;
+    border: 2px solid rgba(246, 245, 244, 1);
+    background: rgba(246, 245, 244, 1);
+}
+.MainCardOfEveryTeam p{
+    font-weight:500;
+}
+
+.NewBackgroundColor{
+    background-color:white;
+}
+.ImageOfEveryTeam {
+    width: 40%;
+    height: auto;
+}
+
+.RowOfEveryTeam {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.TextOfRid {
+    font-family: Georgia;
+    font-size: 29.06px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.6240000128746033px;
+    text-align: center;
+    /* color: rgba(18, 18, 18, 1); */
+    color: #9D34DA;
+   
+
+}
+
+.MainDivOfConsolidate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DivOfConsolidate {
+    display: flex;
+   
+    display: flex;
+    justify-content: center;
+
+    margin-left: 325px;
+}
+
+.TextOfConsolidate {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+  
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+    /* margin-top: 75px; */
+}
+
+/* .VectorLine {
+    background-image: url(../../Images/VectorLine.png);
+    width: 89%;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+} */
+
+.AllToolImg {
+    width: 95%;
+    
+    height: auto;
+    margin-top: 28px;
+    /* margin-left: 157px; */
+}
+
+.DivOfEndlessPic {
+    display: flex;
+}
+
+.TextOfEndless {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -1.2100000381469727px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}
+
+.SecTextOfEndless {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(10, 133, 209, 1);
+}
+
+.MainDivOfEndless {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.ColumnOfComponywiki {
+    background: rgba(246, 245, 244, 1);
+    border: 2px solid rgba(246, 245, 244, 1);
+    border-radius: 12px;
+    padding-top: 12px;
+
+}
+
+.MainColumnOfComponywiki {
+    background: rgba(246, 245, 244, 1);
+    border: 2px solid rgba(246, 245, 244, 1);
+    border-radius: 12px;
+    padding: 20px 20px 20px 20px;
+}
+
+.IconOfComponyWiki {
+    width: 26px;
+    height: 26px;
+    color: rgba(234, 78, 67, 1);
+}
+
+.IconOfFlagcompony {
+    width: 23px;
+    height: 23px;
+    color: rgba(10, 133, 209, 1);
+}
+
+.IconOfFlagcompony1 {
+    width: 23px;
+    height: 23px;
+    color: rgba(248, 121, 42, 1);
+}
+
+.IconOfFlagcompony2 {
+    width: 23px;
+    height: 23px;
+    color: rgba(245, 163, 0, 1);
+}
+
+.IconOfFlagcompony3 {
+    width: 23px;
+    height: 23px;
+    color: rgba(234, 78, 67, 1);
+}
+
+.IconOfFlagcompony4 {
+    width: 23px;
+    height: 23px;
+    color: rgba(42, 157, 153, 1);
+}
+
+.IconOfFlagcompony5 {
+    width: 23px;
+    height: 23px;
+    color: rgba(157, 52, 218, 1);
+}
+
+.ImagfeOfCompontyWiki {
+    width: 90%;
+    height: auto;
+    /* margin-left: 14px; */
+    /* border-radius: 12px; */
+}
+
+.TextOfProduct {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.12999999523162842px;
+    text-align: left;
+    color: rgba(5, 5, 5, 1);
+    margin-top: 10px;
+}
+
+.SecTextOfProduct {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(10, 133, 209, 1);
+}
+
+.ComponyWikiOfMainCol {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.FirstTextelephant {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.9214999675750732px;
+    text-align: center;
+    /* color: rgba(2, 12, 37, 1); */
+    margin-top: 120px;
+    background: linear-gradient(90deg, #9D34DA 0%, #541C74 41%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.SecondTextOfElephant {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.2105000019073486px;
+    text-align: center;
+    color: rgba(2, 12, 37, 1);
+}
+
+.ImageOfElephant {
+    width: 80%;
+    height: auto;
+}
+
+.MainRowOfCompanyWiki {
+    display: flex;
+    gap: 10px;
+}
+
+.mainCardOfDocs {
+    width: 238px;
+    height: 206px;
+    padding: 20px 8px 18.94px 8px;
+    border-radius: 12px;
+    background: rgba(246, 245, 244, 1);
+    border: 2px solid rgba(246, 245, 244, 1);
+}
+.ImageOfEndlessPic{
+    width: 20%;
+    height: auto;
+}
+.ConsolidatetoolsImage{
+    width: 30%;
+    height: auto;
+}
+
+.mainCardOfDocs1 {
+    width: 238px;
+    height: 206px;
+    padding: 20px 8px 18.94px 8px;
+    border-radius: 12px;
+    background: rgba(246, 245, 244, 1);
+    border: 2px solid rgba(246, 245, 244, 1);
+}
+.GirlImage11{
+    width: 30%;
+    height: auto;
+}
+.DivOfCardDocs {
+    display: flex;
+}
+.DivOfCardDocs2 {
+    display: flex;
+    padding-top: 49px;
+}
+.DivOfCardDocs1 {
+    display: flex;
+    padding-top: 193px;
+}
+
+.MainDivOfIconDoc {
+    display: flex;
+    gap: 3px;
+}
+
+.IconOfDocss {
+    color: rgba(250, 167, 0, 1);
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+}
+
+.IconOfDocss1 {
+    color: rgba(10, 133, 209, 1);
+    width: 26px;
+    height: 26px;
+    margin-top: 4px;
+}
+
+.IconOfDocss2 {
+    color: rgba(234, 78, 67, 1);
+    width: 26px;
+    height: 26px;
+    margin-top: 4px;
+}
+
+.TextOfDocss {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.6240000128746033px;
+    text-align: left;
+    color: rgba(5, 5, 5, 1);
+}
+
+.ParaOfDocss {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: left;
+    color: rgba(5, 5, 5, 1);
+}
+
+.Explore {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(153, 102, 0, 1);
+}
+
+.Explore1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(234, 78, 67, 1);
+}
+
+.Explore2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(10, 133, 209, 1);
+}
+.ImageOfHerooPicc{
+    width: 60%;
+    height: auto;
+}

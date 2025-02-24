@@ -1,0 +1,128 @@
+
+.MainDivOfSettingImage {
+    display: flex;
+    gap: 15px;
+}
+
+.DivOfSettingImage {
+    width: 80px;
+    height: 80px;
+    background: black;
+}
+
+.SecondDivOfProfileSettingName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SttingName {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+}
+
+.EmailOfSetting {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    margin: 0px;
+}
+
+.ButtonOfProfileSettingSave {
+    width: 86px;
+    height: 47px;
+    border-radius: 8px;
+    background: #4182F9;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondMainDivOfSettingButton {
+    display: flex;
+}
+
+.InputSettingOfMobileNumber {
+    padding: 0px;
+}
+
+.TextOfChangeEmailAddress {
+    width: 223px;
+    height: 47px;
+    border-radius: 8px;
+    background: #c5d8fa;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4182F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextOfMyemailAddress {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+}
+
+.TextOfEEmail {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+}
+
+.TextOf1MonthAgo {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.RowOfSettingProfiles {
+    margin-top: 20px;
+}
+
+.SEttingForCheck {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.SettingOfFormName {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+}
+.SettingOfInPutFormControl{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+color: #696262;
+/* width: 553.22px; */
+height: 55px;
+border-radius: 8px;
+background: #F9F9F9;
+outline: none;
+border: none;
+}

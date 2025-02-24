@@ -1,0 +1,53 @@
+
+
+/* ----------------------boxes------------ */
+.AdditionalBoxesContainer3rdRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 13px; /* Space between the two boxes */
+    width: 100%;
+   /* margin-top: 13px; */
+}
+
+/* Box 1 styling (first box) */
+.Box33rdRow {
+    /* flex: 1; */
+    height: 280px;
+    background: #E3F5FF;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    padding: 20px;
+}
+
+/* Box 2 styling (second box) */
+.Box43rdRow {
+    flex: 1; /* Box 2 will take 1 part of the available space */
+    height: 280px;
+    background: #E3F5FF;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    padding: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .Box33rdRow, .Box43rdRow {
+        width: 100%; /* Full width on small screens */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .BoxesContainer {
+        flex-direction: column; /* Stack boxes vertically on smaller screens */
+    }
+    /* .AdditionalBoxesContainer3rdRow {
+        flex-direction: column;
+    } */
+}

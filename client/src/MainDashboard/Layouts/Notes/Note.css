@@ -1,0 +1,869 @@
+
+
+/* Main layout */
+.main-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f4f6;
+}
+
+.note-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background: #f9fafb;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Toggleable sections */
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.note-preview {
+    margin-top: 15px;
+    height: 55vh;
+    max-height: 55vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* WebKit Browsers (Chrome, Safari) */
+.note-preview::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.note-preview::-webkit-scrollbar-thumb {
+    background-color: blue; /* Color of the scrollbar */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.note-preview::-webkit-scrollbar-track {
+    background: transparent; /* Background of the scrollbar track */
+}
+
+/* Firefox */
+.note-preview {
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: blue transparent; /* Color of the scrollbar and track */
+}
+
+.note-item {
+    background: rgb(245, 240, 240);
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.note-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.note-date {
+    font-size: 14px;
+    color: #555;
+}
+
+.add-note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.add-note:hover {
+    font-size: 16px;
+    
+    color:#e7a4e7;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Editor section styling */
+.editor-section {
+    padding: 25px;
+}
+
+.editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.editor-title {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+
+
+.editor-title {
+    width: 50%;
+    padding: 8px 0; /* Padding on top/bottom only */
+    font-size: 18px;
+    font-weight: bold;
+    border: none; /* Remove all borders */
+    border-bottom: 2px solid #ddd; /* Add a bottom border only */
+    outline: none; /* Remove the default outline when focused */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.editor-title:focus {
+    border-bottom: 2px solid #3498db; /* Change border color on focus */
+}
+
+
+.note-item.selected1111ss {
+    background-color: #a4c3e7; /* Blue background for selected item */
+    
+}
+
+.save-button {
+    padding: 10px 20px;
+    background: #4182F9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Modal styling */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.modal-input,
+.modal-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.modal-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.modal-button.cancel {
+    background: #ccc;
+    color: #333;
+}
+
+.modal-button.save {
+    background: #4182F9;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .note-container {
+        flex-direction: row;
+    }
+    .sidebar {
+        width: 30%;
+        border-right: 1px solid #eaeaea;
+    }
+    .editor-section {
+        flex: 1;
+    }
+    .HeadingsOfNotes {
+        font-size: 24px !important;
+    }
+}
+
+
+/* -----------------added by samiran-------- */
+
+.search-barww {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-barww:focus {
+    border-color: blue; /* Change border color on focus */
+}
+
+
+/* .main-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f4f6;
+}
+
+.note-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sidebar {
+    flex: 1;
+    background: #f9fafb;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.note-preview {
+    margin-top: 15px;
+}
+
+.note-item {
+    background: white;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.note-date {
+    font-size: 14px;
+    color: #555;
+}
+
+.add-note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.editor-section {
+    flex: 3;
+    padding: 25px;
+}
+
+.editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.editor-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.save-button {
+    padding: 10px 20px;
+    background: #4182F9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.modal-input,
+.modal-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.modal-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.modal-button.cancel {
+    background: #ccc;
+    color: #333;
+}
+
+.modal-button.save {
+    background: #4182F9;
+    color: #fff;
+} */
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f4f6;
+}
+
+.note-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sidebar {
+    flex: 1;
+    background: #f9fafb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.note-preview {
+    background-color: white;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.note-date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+
+.add-note {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.editor-section {
+    flex: 3;
+    padding: 25px;
+}
+
+.editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.editor-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.save-button {
+    padding: 10px 20px;
+    background: #4182F9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.save-button:hover {
+    background: #3167d5;
+}
+
+.note-content {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.modal-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.modal-button.cancel {
+    background: #ccc;
+    color: #333;
+}
+
+.modal-button.save {
+    background: #4182F9;
+    color: #fff;
+}
+
+.modal-button.save:hover {
+    background: #3167d5;
+}
+
+
+@media (max-width: 768px) {
+    .note-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        padding: 15px;
+    }
+
+    .editor-section {
+        padding: 20px;
+    }
+
+    .save-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .editor-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title, .note-title, .editor-title {
+        font-size: 16px;
+    }
+
+    .save-button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .note-content {
+        font-size: 14px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .MainSectionOfNote {
+    width: 100%;
+    height: 100vh;
+}
+
+.MainnDivvOfReflection {
+    background-color: white;
+    padding: 4px;
+}
+
+.ColumnOfNotes {
+    padding: 0px;
+}
+
+.ButtonOfNoteShare {
+    width: 86px;
+    height: 47px;
+    border-radius: 8px;
+    background: #4182F9;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: auto;
+}
+
+.MainDivsOfNoteHead {
+    padding: 10px 25px 10px 25px;
+}
+
+.MAinDivOfHeadingsOfNotes {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.AddNotes {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    color: #00000080;
+    margin-top: 15px;
+}
+
+.TextOfPersonal {
+    font-family: Source Sans Pro;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+}
+
+.TextOfReflection {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+}
+
+.ParaOfReflection {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #00000099;
+}
+
+/* .HeadingsOfNotes {
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #00000099;
+} */
+
+.ParagraphOfNotes {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+} 
+
+
+
+
+
+
+
+
+.delete-icon111 {
+ 
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ff4d4d;
+    transition: color 0.3s;
+}
+
+.delete-icon111:hover {
+    color: #ff1a1a;
+}
+
+
+
+/* ----------------------------Bulk Share---------- */
+.BaackShareScreen {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(95, 90, 90, 0.8); /* Semi-transparent black background */
+    position: fixed; /* Fixed position */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+.share-bUILKsHARE {
+    background-color: #f8f9fa; /* Light background color for the popup */
+    border: 1px solid #ced4da; /* Border around the popup */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the popup */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 50%; /* Fixed width */
+    max-height: 80%; /* Max height for scrollability */
+    overflow-y: auto; /* Adds scroll if content exceeds height */
+}
+
+.share-bUILKsHARE h4 {
+    margin-bottom: 10px; /* Space below the title */
+    font-size: 1.25rem; /* Title size */
+    color: #343a40; /* Dark color for title */
+}
+
+.share-bUILKsHARE p {
+    margin-bottom: 15px; /* Space below paragraph */
+    color: #495057; /* Grey color for text */
+}
+
+.share-bUILKsHARE .email-inputBuilShare {
+    width: calc(100% - 30px); /* Full width minus padding */
+    padding: 10px; /* Inner padding */
+    margin-bottom: 10px; /* Space below the input */
+    border: 1px solid #ced4da; /* Default border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    transition: border-color 0.3s; /* Smooth transition for border */
+}
+
+.share-bUILKsHARE .email-inputBuilShare.valid {
+    border-color: #28a745; /* Green border for valid email */
+}
+
+.share-bUILKsHARE .email-inputBuilShare.invalid {
+    border-color: #dc3545; /* Red border for invalid email */
+}
+
+.share-bUILKsHARE .email-bULKsHARE {
+    display: flex; /* Flex layout for email items */
+    flex-wrap: wrap; /* Allows wrapping of email items */
+    margin-bottom: 10px; /* Space below the email list */
+}
+
+.share-bUILKsHARE .email-itemBulkShare {
+    background-color: #e9ecef; /* Light grey for email items */
+    padding: 5px 10px; /* Padding around the item */
+    border-radius: 20px; /* Rounded shape */
+    margin-right: 5px; /* Space between items */
+    margin-bottom: 5px; /* Space below items */
+    font-size: 0.875rem; /* Smaller font size */
+}
+
+.share-bUILKsHARE button {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.share-bUILKsHARE button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.url-container {
+    display: flex; /* Align URL input and button horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space below the URL section */
+}
+
+.url-input {
+    flex: 1; /* Take up all available space */
+    padding: 10px; /* Inner padding */
+    margin-right: 10px; /* Space between input and button */
+    border: 1px solid #ced4da; /* Default border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.copy-button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1.25rem; /* Icon size */
+    color: #007bff; /* Color for the icon */
+}
+
+
+.delete-button11 {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #dc3545; /* Red color for the delete icon */
+    margin-left: 5px; /* Space between email and delete icon */
+    font-size: 1rem; /* Icon size */
+}
+.close-iconffff {
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 1.5rem; /* Adjust size as needed */
+    
+    top: 10px; /* Adjust positioning */
+    right: 10px; /* Adjust positioning */
+    color: red; /* Change color to your preference */
+}

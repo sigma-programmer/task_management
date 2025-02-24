@@ -1,0 +1,83 @@
+.MaainDivOdVarifyy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.SecMainDivOfVariffyy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondMainDivOfVarify {
+    text-align: center;
+    width: 300px;
+}
+
+.MainDivOfLogoVerify {
+    margin-bottom: 20px;
+}
+
+.ImageOfLogoSign {
+    width: 100px;
+}
+
+.TextOfEmailed {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.ParagraphOfAccountSetup {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.MainDivOfBoxx {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.OtpInputBox {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ButtonOfVerifyIntaskar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.TextOfResendEmail {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.ResendEmail {
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .SecondMainDivOfVarify {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .OtpInputBox {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+}

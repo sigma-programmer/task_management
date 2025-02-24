@@ -1,0 +1,86 @@
+
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --light-primary: #e9ecef;
+    --dark-grey: #495057;
+    --border-radius: 0.25rem;
+    --icon-size: 24px;
+    --font-size: 16px;
+    --font-another-size: 14px;
+    --font-date-size: 12px;
+    --font-family-type: Inter;
+  }
+
+/* ----------------------boxes------------ */
+.BoxesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 13px; /* Space between the two boxes */
+    width: 100%;
+   /* margin-top: 13px; */
+}
+
+/* Box 1 styling (first box) */
+.Box1 {
+    flex: 3; /* Box 1 will take 3 parts of the available space */
+    height: 280px;
+    background: #E3F5FF;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Box 2 styling (second box) */
+
+/* ********Shreya******* */
+
+.Box2 {
+    flex: 1;
+    height: 280px;
+    background: #E3F5FF;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    padding: 10px;
+}
+.TextOfProjectWebsite{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #1C1C1C;
+}
+.TextOfClienttt{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: var(--black-100, #1C1C1C);
+}
+.DivOfTextOfClienttt{
+    display: flex;
+    gap: 30px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .Box1, .Box2 {
+        width: 100%; /* Full width on small screens */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .BoxesContainer {
+        flex-direction: column; /* Stack boxes vertically on smaller screens */
+    }
+}

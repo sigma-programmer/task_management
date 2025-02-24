@@ -1,0 +1,517 @@
+
+
+
+.BackgroundImageRow {
+  position: relative;
+  background-image: url('../../Images/Section.png') !important; /* Replace with your image path */
+  background-size: cover; /* Adjust the size to cover the entire row */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  padding: 2rem; /* Add padding to give space inside the row */
+}
+
+.BackgroundImageRow .TextContent {
+  position: relative;
+  z-index: 1; /* Ensure text is on top of the background image */
+  color: #fff; /* Ensure text is readable on the background image */
+}
+
+@media (max-width: 768px) {
+  .BackgroundImageRow {
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .BackgroundImageRow {
+    padding: 1rem; /* Further adjust padding for very small screens */
+  }
+}
+
+
+.CustomRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.CustomCol {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Adjust max-width as needed */
+}
+
+.CalendarScreenshot {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Ensure the screenshot fits within the container */
+}
+
+.CalendarImage {
+  width: 100%;
+  height: auto;
+  border-radius: 15px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.PlayButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  cursor: pointer;
+  
+
+}
+
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+  .CustomRow {
+    margin-bottom: 4rem; /* Adjust margin for smaller screens */
+  }
+
+  .PlayButton {
+    font-size: 50px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .CustomRow {
+    margin-bottom: 3rem; /* Further adjust margin for very small screens */
+  }
+
+  .PlayButton {
+    font-size: 40px; /* Further adjust font size for very small screens */
+  }
+}
+
+
+
+
+
+
+.time-management-section .feature-text {
+  text-align: left;
+  /* margin-left: 25px; */
+}
+.time-management-section .feature-text1 {
+  text-align: left;
+  /* margin-left: 25px; */
+}
+
+.time-management-section p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #666;
+}
+
+.time-management-section .img {
+  border-radius: 15px; 
+}
+
+
+
+
+.time-management-section h4 {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.time-management-section .img {
+  max-width: 100%;
+  /* height: auto; */
+  border-radius: 12px;
+}
+.time-management-section .NewImage111 {
+  max-width: 80%;
+  /* height: auto; */
+  border-radius: 12px;
+}
+
+
+
+.header-backgroundnew {
+  background-image: url('../../Images/CalendarTileContainer.png'); /* Adjust the path */
+  background-size: cover; /* Ensures the image covers the element */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  padding: 80px; /* Default padding */
+ 
+  text-align: center; /* Centers text inside the element */
+  box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-backgroundnew {
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .header-backgroundnew {
+    padding: 20px; /* Further reduce padding for extra-small screens */
+  }
+}
+
+.header-backgroundnew11 {
+  background-image: url('../../Images/Image213ee.png'); /* Adjust the path */
+  background-size: cover; /* Ensures the image covers the element */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  padding: 80px; /* Default padding */
+ 
+  text-align: center; /* Centers text inside the element */
+  box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-backgroundnew11 {
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .header-backgroundnew11{
+    padding: 20px; /* Further reduce padding for extra-small screens */
+  }
+}
+
+.header-backgroundnew113 {
+  background-image: url('../../Images/Image33rreeeeeeee.png'); /* Adjust the path */
+  background-size: cover; /* Ensures the image covers the element */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  padding: 80px; /* Default padding */
+ 
+  text-align: center; /* Centers text inside the element */
+  box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-backgroundnew113{
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .header-backgroundnew113{
+    padding: 20px; /* Further reduce padding for extra-small screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------ */
+.product-cal {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+
+  padding: 2rem;
+}
+
+
+.calendar-screenshot {
+  position: relative;
+}
+
+.calendar-image {
+  border-radius: 15px; 
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  cursor: pointer;
+ 
+}
+
+
+
+.text-content h1 {
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.feature-row {
+  background-color: #f5f4f6;
+  border-radius: 15px;
+  width: 1020px;
+}
+
+.feature-row2 {
+  background-color: #f5f4f6;
+  border-radius: 15px;
+  width: 500px;
+  height: 587px;
+}
+
+.feature-row3 {
+  background-color: #f5f4f6;
+  border-radius: 15px;
+  width: 500px;
+  height: 440.75px;
+}
+.feature-row4 {
+  background-color: #f5f4f6;
+  border-radius: 15px;
+  width: 325.33px;
+  height: 195.94px;
+}
+.feature-row5 {
+  background-color: #f5f4f6;
+  border-radius: 15px;
+  width: 321.33px;
+  height: 190.94px;
+  top: 2px;
+  left: 2px;
+  padding: 24px 32px 29px 32px;
+ 
+}
+.feature-row6 {
+  background-color: #f5f4f6;
+  border-radius: 15px;
+  width: 500px;
+  height: 440.75px;
+}
+
+.set {
+  margin-top: 110px;
+  margin-left: 270px;
+}
+
+.feature-text {
+  margin-bottom: 1rem;
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+
+
+.fit {
+  margin-top: 10px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+
+.device {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+}
+
+/* Responsive media queries */
+
+@media (max-width: 768px) {
+  .product-cal {
+    padding: 1.5rem;
+  }
+
+
+
+  .feature-row,
+  .feature-row2,
+  .feature-row3,
+  .feature-row6 {
+    width: 100%; 
+    height: auto; 
+  }
+
+  
+
+
+}
+
+@media (max-width: 480px) {
+  .product-cal {
+    padding: 1rem;
+  }
+
+  .calendar-screenshot {
+    text-align: center; 
+  }
+
+  .calendar-image {
+    width: 100%;
+  }
+
+  .play-button {
+    font-size: 50px;
+  }
+
+ 
+  .feature-text,
+  .feature-text1 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .feature-row,
+  .feature-row2,
+  .feature-row3,
+  .feature-row6 {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .set {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .time-management-section h4 {
+    font-size: 1.25rem;
+  }
+
+  
+
+  .feature-text {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 320px) {
+ 
+
+
+
+  .feature-row2 {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .feature-row3 {
+    height: 300px;
+  }
+
+  .set {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .feature-row6 {
+    height:441px;
+    overflow: hidden;
+  }
+
+  .feature-row5,
+  .feature-row4 {
+    margin-top: 15px;
+  }
+
+  .set{
+    margin-left: 20px;
+  }
+}
+
+.feature-text {
+  margin-bottom: 1rem;
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+
+
+.fit {
+  margin-top: 10px;
+  margin-left: 50px; 
+  margin-bottom: 30px;
+}
+
+.device {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:780px)  and (min-width: 320px) {
+  br {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px)  and (min-width: 520px) {
+ 
+
+  .feature-row2 {
+    background-color: #f5f4f6;
+    border-radius: 15px;
+    width: 400px;
+    height: 463.05px;
+  }
+
+  .feature-row3 {
+    background-color: #f5f4f6;
+    border-radius: 15px;
+    width: 400px;
+    height: 400.75px;
+  }
+  .feature-row4 {
+    background-color: #f5f4f6;
+    border-radius: 15px;
+    width: 275.33px;
+    height: 205.94px;
+  }
+  .feature-row5 {
+    background-color: #f5f4f6;
+    border-radius: 15px;
+    width: 271.33px;
+    height: 190.94px;
+    top: 2px;
+    left: 2px;
+    padding: 24px 32px 29px 32px;
+ 
+  }
+  .feature-row6 {
+    background-color: #f5f4f6;
+    border-radius: 15px;
+    width: 400px;
+    height: 440.75px;
+  }
+
+  .set {
+    margin-top: 80px;
+    margin-left: 150px;
+  }
+
+  .try{
+    height: 270px;
+  }
+}

@@ -1,0 +1,116 @@
+.MainSectionDivOfPrivacyPolicy {
+    padding: 20px 27px 20px 27px;
+}
+
+.SetionOfPrivacyPolicy {
+    background: linear-gradient(180deg, #FAF9FE 0%, #F5EDFC 100%);
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 90px;
+}
+
+.TextOfPrivacyPolicy {
+    font-family: Inter;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    color: #050505;
+}
+
+.SecondTextOfPrivacyPolicy {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #050505;
+}
+
+.MainDivOfIntroPrivacyPolicy {
+    border-radius: 30px;
+    background: #FFFFFF;
+    padding: 30px 50px 30px 50px;
+    margin-top: 45px;
+}
+
+.IntroTextOfPrivacyPolicy {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    color: #050505;
+    padding-bottom: 20px;
+}
+
+.ParagraphOfPrivacyPolicy {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    color: #050505;
+    margin: 0px;
+}
+
+.SpanOfPrivacyPolicy {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #050505;
+    padding-top: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .TextOfPrivacyPolicy {
+        font-size: 32px;
+        padding-top: 10px;
+    }
+    .SecondTextOfPrivacyPolicy {
+        font-size: 18px;
+    }
+    .IntroTextOfPrivacyPolicy {
+        font-size: 21px;
+        text-align: center;
+    }
+    .ParagraphOfPrivacyPolicy {
+        font-size: 14px;
+    }
+    .MainDivOfIntroPrivacyPolicy {
+        padding: 30px 18px 30px 18px;
+    }
+    .SpanOfPrivacyPolicy {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1000px) {
+    .TextOfPrivacyPolicy {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .SecondTextOfPrivacyPolicy {
+        font-size: 18px;
+    }
+    .IntroTextOfPrivacyPolicy {
+        font-size: 26px;
+        text-align: center;
+    }
+    .ParagraphOfPrivacyPolicy {
+        font-size: 14px;
+    }
+    .MainDivOfIntroPrivacyPolicy {
+        padding: 30px 18px 30px 18px;
+    }
+    .SpanOfPrivacyPolicy {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .TextOfPrivacyPolicy {
+        font-size: 60px;
+        padding-top: 10px;
+    }
+}
+

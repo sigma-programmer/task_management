@@ -1,0 +1,59 @@
+
+
+
+
+.SettingOfInPutFormControlMasterData{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+color: #696262;
+/* width: 553.22px; */
+height: 55px;
+border-radius: 8px;
+background: #F9F9F9;
+outline: none;
+/* border: none; */
+border-style: dotted;
+}
+
+
+.ImageOfPreviewPhoto{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+/* -------------------added by samiran----- */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.ImageOfPreviewPhoto {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.remove-image-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    /* padding: 5px; */
+    font-size: 16px;
+
+    /* width: 25px;
+    height: 25px; */
+}

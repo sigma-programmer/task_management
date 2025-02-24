@@ -1,0 +1,135 @@
+.MainDivOfLogoLogin {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ImageOfLogoLogin {
+    width: 150px;
+}
+
+.MainDivOfAllLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.TextOfLogin {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.MainDivOfLoginInputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.LabelOfEmail, .LabelOfPassword {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.InputOfLoginEmail, .InputOfLoginPassword {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.ForgotPassword {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.LoginWith {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* .DivOfLoginWith {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+} */
+
+.IconOfLoginWith {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.CreateAccount {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.ButtonOfLogin {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .TextOfLogin {
+        font-size: 1.2rem;
+    }
+
+    .InputOfLoginEmail, .InputOfLoginPassword {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .IconOfLoginWith {
+        font-size: 1.2rem;
+    }
+
+    .ButtonOfLogin {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+.LoadingContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Additional styles for the spinner and link */
+.SignUpLink {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Message {
+    color: #d9534f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ButtonOfLogin:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.ButtonOfLogin .ant-spin {
+    margin-right: 10px;
+}

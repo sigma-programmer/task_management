@@ -1,0 +1,214 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --light-primary: #e9ecef;
+    --dark-grey: #495057;
+    --border-radius: 0.25rem;
+    --icon-size: 24px;
+    --font-size: 16px;
+    --font-another-size: 14px;
+    --font-date-size: 12px;
+    --font-family-type: Inter;
+
+    --ash-color: #e0e0e0; /* Ash color for the background */
+    --placeholder-color: #aaa; /* Placeholder text color */
+    --border-radius: 10px; /* Border radius for the input */
+    --padding: 8px; /* Padding for the input */
+    --input-width: 200px; /* Width for the input */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Shadow color */
+    --shadow-size: 4px; /* Shadow size */
+}
+
+/* Navbar container */
+.NavbarNewDashboard {
+    background-color: var(--light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* Adjusted for better mobile view */
+    padding: 0 20px; /* Horizontal padding */
+    border-bottom: 1px solid #b0b0b0; /* Bottom border */
+    position: relative; /* For positioning child elements */
+}
+
+/* Left side container */
+.NavbarLeft {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+/* Center container for active group and item */
+.NavbarCenter {
+    margin-left: 10px; /* Space between toggle button and text */
+    font-family: var(--font-family-type);
+    font-size: var(--font-another-size);
+    font-weight: 400;
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+/* Right side container */
+.NavbarRight {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+}
+
+/* Navbar icons */
+.NavbarIcon {
+    background: none;
+    border: none;
+    color: black; /* Default icon color */
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: opacity 0.3s ease;
+    /* display: flex; */
+
+    position: relative;
+    display: inline-block;
+    font-size: 24px; 
+}
+
+.NavbarIcon:hover {
+    opacity: 0.8;
+}
+.notification-badge {
+    position: absolute;
+    top: -5px; /* Adjust this value to position the badge above the icon */
+    right: -5px; /* Adjust this value to position the badge to the right */
+    background-color: red; /* Red background for the badge */
+    color: white; /* White text */
+    border-radius: 50%;
+    padding: 3px 8px; 
+    font-size: 12px; /* Adjust the font size */
+    font-weight: bold;
+    min-width: 18px; /* Ensure a minimum width for the badge */
+    text-align: center;
+  }
+/* Search input styling */
+.SearchItemWithIcon {
+    display: flex;
+    align-items: center;
+    background-color: var(--ash-color);
+    border-radius: var(--border-radius);
+    padding: 4px 8px;
+    margin-right: 10px; /* Space between search and other icons */
+}
+
+.SearchInput {
+    width: var(--input-width); /* Set width */
+    padding-left: 5px;
+    border: none; /* No border */
+    border-radius: var(--border-radius); /* Rounded corners */
+    background-color: var(--ash-color); /* Ash color background */
+    color: black; /* Text color */
+    font-size: var(--font-size); /* Font size */
+    transition: box-shadow 300ms ease; /* Smooth shadow transition */
+    outline: none;
+}
+
+.Search-Icon-NEW {
+    color: var(--placeholder-color); /* Text color */
+}
+
+/* Placeholder color */
+.SearchInput::placeholder {
+    color: var(--placeholder-color); /* Placeholder color */
+    font-family: var(--font-family-type);
+    font-size: var(--font-another-size);
+}
+
+/* Focus effect */
+.SearchInput:focus {
+    outline: none; /* Remove outline */
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+    .NavbarNewDashboard {
+        padding: 10px; /* Reduce padding */
+    }
+    
+    .SearchInput {
+        width: 150px; /* Adjust input width for smaller screens */
+    }
+
+    .NavbarCenter {
+        font-size: var(--font-date-size); /* Smaller font size on mobile */
+    }
+
+    .NavbarIcon {
+        margin: 0 5px; /* Reduce margin for smaller icons */
+    }
+}
+
+@media (max-width: 768px) {
+    .NavbarNewDashboard {
+        flex-direction: row; /* Stack items on small screens */
+        height: auto; /* Adjust height */
+    }
+    
+    .SearchItemWithIcon {
+        margin: 10px 0; /* Margin around search input */
+    }
+    
+    .NavbarRight {
+        justify-content: space-around; /* Space icons evenly */
+        width: 100%; /* Full width for right side */
+    }
+}
+
+@media (max-width: 480px) {
+    .NavbarNewDashboard {
+        padding: 5px; /* Even smaller padding */
+    }
+    
+    .SearchInput {
+        width: 120px; /* Further adjust input width */
+    }
+
+    .NavbarIcon {
+        font-size: 18px; /* Slightly smaller icons */
+    }
+
+    .NavbarCenter {
+        font-size: var(--font-date-size); /* Smaller font size on mobile */
+        text-align: left; /* Align text to left */
+    }
+}
+
+
+
+
+@media (max-width:  846px) and (min-width:320px) {
+
+      .NavbarCenter{
+        display: none;
+
+
+    }
+    .NavbarNewDashboard {
+       display: flex;
+       flex-direction: row;
+       padding: 0px;
+    }
+
+    .SearchItemWithIcon{
+        padding: 0px;
+    }
+
+    .SearchItemWithIcon{
+        width: 50%;
+    }
+    .SearchInput{
+        width: 50%;
+    }
+
+    .SearchInput::placeholder {
+       
+        font-size: 10px;
+    }
+
+}

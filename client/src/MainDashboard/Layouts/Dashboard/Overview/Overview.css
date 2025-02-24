@@ -1,0 +1,106 @@
+.OverviewContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    justify-content: center; /* Center the cards */
+    gap: 13px; /* Space between cards */
+    width: 100%;
+}
+
+
+
+
+
+/* Header container */
+.Header {
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Align vertically in the center */
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+/* Left section (Overview) */
+.HeaderLeft {
+ 
+    font-weight: 600;
+    color: #1C1C1C;
+
+
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+
+text-align: left;
+
+
+
+}
+
+/* Right section (Today and arrow) */
+.HeaderRight {
+    display: flex;
+    align-items: center;
+  
+    color:#1C1C1C;
+
+
+
+  
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+
+}
+
+.ArrowIcon {
+    margin-left: 5px;
+    color:#1C1C1C;
+
+
+
+  
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+/* Responsive behavior for small screens */
+@media (max-width: 768px) {
+    .Header {
+        flex-direction: row; /* Ensure the text and icon remain in a single row */
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .HeaderLeft,
+    .HeaderRight {
+        font-size: 16px; /* Slightly smaller font size on small screens */
+    }
+
+    .ArrowIcon {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

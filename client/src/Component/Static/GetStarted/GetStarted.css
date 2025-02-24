@@ -1,0 +1,447 @@
+.MainDivOfGetStarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageOfGetStarted {
+    width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.TextOfGetStarted {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -1.9210000038146973px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}
+
+.SecTextOfGetStarted {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: center;
+    color: #9D34DA;
+    /* color: rgba(18, 18, 18, 1); */
+}
+
+.TextOfAssistant {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -2.5627501010894775px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}
+
+.ParagraphOfAssistant {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.41999998688697815px;
+    text-align: center;
+    /* color: rgba(18, 18, 18, 1); */
+    color: #9D34DA;
+   
+
+}
+
+.MainCardOfMember {
+    width: 100%;
+    height: 135px;
+    border-radius: 12px;
+    background: rgba(246, 245, 244, 1);
+    border: 2px solid rgba(246, 245, 244, 1);
+    padding: 25px 59px 26px 34px;
+}
+
+.NumberOfMember {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -1.9214999675750732px;
+    text-align: left;
+    color: rgba(10, 133, 209, 1);
+}
+
+.TextOfMember {
+    font-family: Inter;
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.04724999889731407px;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+}
+
+.TextOfNetwork {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.12999999523162842px;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+}
+
+.SecTextOfNetwork {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+}
+
+.ImageOfNetwork {
+    width: 65%;
+    height: auto;
+}
+
+.SecImageOfNetwork {
+    width: 62%;
+    height: auto;
+}
+
+.MainCardOfNetwork {
+    width: 100%;
+    height: 423px;
+    padding: 24px 28px 0px 35px;
+    border-radius: 12px;
+    background: rgba(246, 245, 244, 1);
+    border: 2px solid rgba(246, 245, 244, 1);
+    margin-top: 31px;
+}
+
+.TextOfEveryDay {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -1.2105000019073486px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+    margin-top: 30px;
+}
+
+.SecTextOfEveryDay {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: center;
+    /* color: rgba(18, 18, 18, 1); */
+    color: #9D34DA;
+}
+
+.MainDivOfEveryDay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextOfGlobal {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -1.2100000381469727px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}
+
+.TExtOfGlobal {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: center;
+    /* color: rgba(18, 18, 18, 1); */
+    color: #9D34DA;
+}
+
+.TextOfPlatform {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 78.66px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}
+
+.IntaskrEveryOne {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.9214999675750732px;
+    text-align: left;
+    color: #020C25;
+    margin-top: 12px;
+   
+
+}
+
+.MainDivOfInstakr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageOfIntaskr {
+    width: 30%;
+    height: auto;
+}
+
+.RowOfEveryTeam {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.TextOfUser {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30.26px;
+    text-align: center;
+    /* color: rgba(0, 0, 0, 1); */
+    color: #9D34DA;
+}
+.MainCardOfDocument{
+    background: rgba(246, 245, 244, 1);
+    border: 2px solid rgba(246, 245, 244, 1);
+    width: 100%;
+height: 218px;
+border-radius: 12px;
+padding: 13px 17px 5px 22px;
+}
+.DivOfAvatarr{
+    display: flex;
+}
+.ImageOfAvatar{
+    width: 48px;
+    height: 48px;
+}
+.PataFirstOfAvatar{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.019999999552965164px;
+text-align: left;
+margin: 0px;
+padding: 0px;
+}
+.SecParaFirstOfAvatar{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.014000000432133675px;
+text-align: left;
+margin: 0px;
+padding: 0px;
+}
+.ParaOfDocument{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.014000000432133675px;
+text-align: left;
+padding-top: 20px;
+}
+.MainDivAvatars{
+    margin-left: 12px;
+}
+.DivOfTemplatePic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImageOfTemplate{
+    width: 30%;
+    height: auto;
+}
+.TextOfTemplate{
+    font-family: Inter;
+font-size: 55px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.8496000170707703px;
+text-align: center;
+/* color: rgba(0, 0, 0, 1); */
+/* color: linear-gradient(90deg, #9D34DA 0%, #541C74 41%); */
+/* background: ; */
+background: linear-gradient(90deg, #9D34DA 0%, #541C74 41%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 20px;
+
+}
+.IntaskKrTextOfTemplate{
+    margin-top: 55px;
+    font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.8496000170707703px;
+text-align: center;
+color: rgba(0, 0, 0, 1);
+}
+.SecTextOfTemplate{
+    font-family: Inter;
+font-size: 30px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.13500000536441803px;
+text-align: center;
+color: rgba(0, 0, 0, 0.6);
+/* margin-top: 45px; */
+}
+.IntaskKrSecTextOfTemplate{
+    font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+/* line-height: 24px; */
+letter-spacing: -0.13500000536441803px;
+text-align: center;
+/* color: black; */
+background: linear-gradient(90deg, #9D34DA 0%, #541C74 41%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 20px;
+}
+.DivOfInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.ButtonOfSignup{
+    width: 156px;
+height: 36px;
+border-radius: 5px;
+background: linear-gradient(90deg, #9D34DA 0%, #541C74 41%);
+/* background: rgba(234, 78, 67, 1); */
+border: none;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0.00800000037997961px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+.InputOfEmail{
+    width: 364px;
+height: 36px;
+padding: 8px 10px 8px 10px;
+border-radius: 5px;
+background: rgba(255, 255, 255, 1);
+border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.TextOfQuestion{
+    font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.8496000170707703px;
+text-align: center;
+color: rgba(5, 5, 5, 1);
+/* padding-bottom: 30px; */
+}
+.MainDivOfAccordion{
+    padding-bottom: 70px;
+}
+.ParagraphOfquestion{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.00800000037997961px;
+text-align: left;
+margin-left: 20px;
+}
+.ImageOfEveryDay{
+    width: 60%;
+    height: auto;
+}
+.IconOfProject{
+    /* width: 60px;
+    height: 60px; */
+    font-size: 35px;
+    color: rgba(10, 133, 209, 1);
+}
+.GetStartedHrtag{
+    height: 2px !important;
+
+}
+
+.fw-custom {
+    font-weight: 500;
+    color: black;
+  }
+
+
+
+  .MainFAQSection{
+    padding:20px;
+  }
+
+
+
+
+
+
+
+  @media (min-width: 320px) and (max-width: 520px) {
+ 
+   
+     
+  .ParagraphOfAssistant{
+     
+        font-size: 20px ;
+      
+    }
+  .ParagraphOfAssistant br{
+     
+      display: none;
+      
+    }
+
+   .TextOfEveryDay,.TextOfGlobal,.TextOfPlatform,.IntaskKrTextOfTemplate,.TextOfQuestion {
+        font-size: 26px;
+        line-height: normal;
+    }
+   .ImageOfEveryDay{
+    width: 100%;
+   }
+   .TextOfUser ,.SecTextOfTemplate,.IntaskKrSecTextOfTemplate{
+    font-size:20px;
+   }
+
+}
+
+
+
+  @media (min-width: 320px) and (max-width: 767px) {
+ 
+   .MainColumnOfComponywiki{
+    width: 100%;
+   }
+}

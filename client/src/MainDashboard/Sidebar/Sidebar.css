@@ -1,0 +1,225 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --light-primary: #e9ecef;
+  --dark-grey: #495057;
+  --border-radius: 0.25rem;
+  --icon-size: 24px;
+  --font-size: 16px;
+  --font-another-size: 14px;
+  --font-date-size: 12px;
+  --font-family-type: Inter;
+}
+
+  
+  .Sidebar {
+    background-color: var(--light);
+    
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+   /* border-top-left-radius:25px;
+   border-bottom-left-radius:25px; */
+   border-right: 1px solid #b0b0b0;
+    /* border-right: 1px solid var(--black-10, #1C1C1C1A) */
+    overflow-y: auto; 
+  }
+  
+
+
+  
+/* Custom scrollbar styling */
+.Sidebar::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+}
+
+/* Track (background) */
+.Sidebar::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
+}
+
+/* Handle */
+.Sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent handle color */
+  
+  border-radius: 10px; /* Rounded corners for the scrollbar handle */
+}
+
+/* Hover effect on the scrollbar handle */
+.Sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+}
+  .SidebarGroup {
+    margin-bottom: 0px;
+  }
+  
+  .SidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 10px 10px 0px;
+    /* background-color: var(--light-primary); */
+    border-radius: var(--border-radius);
+    transition: background-color 0.2s;
+  }
+  
+  /* .SidebarHeader:hover {
+    background-color: var(--secondary-color);
+  } */
+  
+  .SidebarTitle {
+    flex-grow: 1; /* Allow title to take space */
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+/* color: var(--Primary-Brand, #1C1C1C); */
+color: var(--dark);
+  }
+  
+  .SidebarChevron {
+    transition: transform 0.3s ease; /* Smooth transition for the chevron */
+  }
+  
+  .SidebarItems {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    transition: max-height 0.3s ease; /* Smooth transition for item expansion */
+    overflow: hidden; /* Hide items initially */
+    flex-direction: column;
+    display: flex;
+    gap: 4px;
+  }
+
+  
+  .SidebarItem {
+    padding: 8px 0;
+    /* color: var(--dark-grey); */
+    color: var(--dark);
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .SidebarItem:hover {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  /* Rotate the chevron icon */
+  .SidebarChevron.up {
+    transform: rotate(90deg);
+  }
+  
+  .SidebarHeader {
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .SidebarItems {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .SidebarItem {
+    padding: 10px 10px 10px 25px;
+    cursor: pointer;
+    width: 158px;
+height: 36px;
+border-radius: 12px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+/* text-align: left; */
+/* color: var(--black-100, #1C1C1C); */
+color: var(--dark);
+  }
+  
+  .SidebarItem:hover {
+    /* background-color: #f0f0f0; */
+
+    color: var(--dark);
+  }
+  
+  .SidebarItem.active {
+    /* color: white;  */
+
+    color: var(--dark);
+    background: var(--black-5, #1C1C1C0D);
+    /* color: var(--black-100, #1C1C1C); */
+
+  }
+/* *************Shreya************* */
+  .UserProfile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+  }
+  .UserImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+  }
+  .UserName{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+/* color: var(--black-100, #1C1C1C); */
+color: var(--dark);
+margin-top: 5px;
+  }
+  .MasterHeadingOfText{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: var(--dark-grey);
+/* color: var(--dark); */
+margin-top: 15px;
+  }
+
+
+
+  /* ----------------------------------------------------------------------------------------------- */
+
+
+  .Sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .StaticNavItems {
+    margin-top: auto; /* Ensures these items stay at the bottom */
+    padding: 10px;
+  }
+  
+  .SidebarStaticItems {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .SidebarStaticItems li {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .SidebarStaticItems li.active {
+    background-color: #f0f0f0; /* Style active items */
+  }
+  
+  .SidebarStaticItems li i {
+    margin-right: 8px;
+  }
+  

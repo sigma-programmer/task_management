@@ -1,0 +1,472 @@
+
+.ChatApp1 {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+/* Sidebar Styles */
+.ChatSidebar11 {
+  width: 260px;
+  background: #ffffff;
+  border-right: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.SidebarClosed11 {
+  transform: translateX(-100%);
+  position: fixed;
+}
+
+.SidebarOpen11 {
+  transform: translateX(0);
+  /* position: relative; */
+}
+
+.SidebarBackdrop11 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.SidebarHeader11 {
+  padding: 16px;
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CompanyName11 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-left: 32px;
+  color: #000000;
+}
+
+.IconButton11 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #000000;
+}
+
+.IconButton11:hover {
+  color: #4a5568;
+}
+
+.SidebarNav11 {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  position: relative;
+  top: -27px;
+}
+
+.NavList11 {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.NavItem11 {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.NavItem11:hover {
+  background: #f7fafc;
+}
+
+.NavIcon11 {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.ChannelSection11 {
+  margin-top: 24px;
+}
+
+.ChannelHeader11 {
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.ChannelList11 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ChannelItem11 {
+  padding: 4px 12px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #000000;
+}
+
+#darkitem {
+  font-weight: bold;
+}
+
+.ChannelItem11:hover:not(.ActiveChannel11) {
+  background: #ffffff;
+}
+
+.ActiveChannel11 {
+  background: #1164a3;
+  color: white;
+}
+
+.AddChannel11 {
+  border: 1px solid #cec9c9;
+}
+
+.AddChannel11:hover {
+  color: #4a5568;
+}
+
+/* Main Content Styles */
+.MainContent11 {
+  flex: 1;
+  /* margin-left: 260px; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.ChatHeader {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.HeaderLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.MenuButton {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 4px;
+  color: #4a5568;
+}
+
+.ChannelTitle {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 19.2px;
+  color: #1b1b1b;
+}
+
+.ChannelDescription {
+  font-weight: normal;
+  color: #2e2e2e;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.HeaderRight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* border: 0.5px solid #000000; */
+}
+
+.AvatarGroup {
+  display: flex;
+}
+
+.AvatarWrapper {
+  position: relative;
+}
+
+.AvatarImage {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.MemberCount {
+  color: #718096;
+  font-size: 14px;
+}
+
+/* Message Styles */
+.MessageContainer {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6fa;
+}
+
+.MessageWrapper {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+  align-items: flex-start;
+  margin-top: auto;
+  min-height: min-content;
+}
+
+.MessageAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.MessageContent {
+  flex: 1;
+}
+
+.MessageHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.AuthorName {
+  font-weight: 800;
+  font-size: 13px;
+  color: #1b1b1b;
+}
+
+.MessageTime {
+  color: #718096;
+  font-size: 12px;
+}
+
+.MessageBody {
+  color: #2d3748;
+  line-height: 15.6px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.ChatLink {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.ChatLink:hover {
+  text-decoration: underline;
+}
+
+.Post {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13.2px;
+}
+
+.AppBadge {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3182ce;
+  background: #ebf8ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+/* Event Styles */
+.EventContainer {
+  display: flex;
+  margin-top: 8px;
+  background: #f8fafc;
+  border-radius: 4px;
+  padding: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.EventIndicator {
+  width: 4px;
+  background: #3182ce;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.EventContent {
+  flex: 1;
+}
+
+.EventTitle {
+  color: #146199;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.EventEditIcon {
+  cursor: pointer;
+  font-size: 16px;
+  color: #718096;
+}
+
+.EventEditIcon:hover {
+  color: #4a5568;
+}
+
+.EventTime {
+  margin-top: 4px;
+  color: #4a5568;
+  font-size: 14px;
+}
+
+/* Document Preview Styles */
+.DocumentPreview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.DocumentIcon {
+  font-size: 24px;
+  color: #057055;
+}
+
+.DocumentInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.DocumentMeta {
+  font-size: 12px;
+  color: #718096;
+  margin-top: 2px;
+}
+
+/* Input Area Styles */
+.InputArea {
+  padding: 16px;
+  border-top: 1px solid #e2e8f0;
+  background-color: #f6f6fa;
+}
+
+.InputWrapper {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background: white;
+}
+
+.MessageInput {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.MessageInput::placeholder {
+  color: #a0aec0;
+}
+
+.ToolbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.ToolbarLeft,
+.ToolbarRight {
+  display: flex;
+  gap: 8px;
+}
+
+.ToolbarButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #718096;
+  font-size: 18px;
+}
+
+.ToolbarButton:hover {
+  color: #4a5568;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .MainContent11 {
+    margin-left: 0;
+    /* position: fixed; */
+  }
+
+  .MenuButton {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .ChannelDescription {
+    display: none;
+  }
+
+  .HeaderRight {
+    gap: 4px;
+  }
+
+  .AvatarImage {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ToolbarWrapper {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

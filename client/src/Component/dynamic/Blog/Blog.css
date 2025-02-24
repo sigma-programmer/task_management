@@ -1,0 +1,148 @@
+.ImageOfSecondBlogImage {
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.FirstMainDivOfAdvertisement {
+    padding: 10px 210px 10px 210px;
+}
+
+.SecondMainDivOfAdvertisement {
+    padding: 10px 210px 10px 210px;
+    margin-top: 40px;
+}
+
+.ColumnOfBloggPost {
+    min-height: 300px;
+    padding: 15px;
+    border: 1px solid #E8E8EA;
+    background: #FFFFFF;
+    border-radius: 12px;
+
+}
+
+.ImageOfBloggPost {
+    width: 100%;
+    height: auto;
+}
+
+.TextOfTimeManagement {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #4B6BFB;
+
+    width: 147px;
+    height: 32px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 6px;
+    background: #4B6BFB0D;
+    margin-bottom: 8px;
+    margin-top: 13px;
+}
+
+.TextOfMasterArt {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: #181A2A;
+}
+
+.MainDivOfBlogImage {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+}
+
+.BlogOfCard {
+    padding: 0px;
+}
+.RowOfBlogPost{
+    margin-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .FirstMainDivOfAdvertisement {
+        padding: 10px 10px 10px 10px;
+    }
+    .SecondMainDivOfAdvertisement{
+        padding: 10px 10px 10px 10px; 
+    }
+    .TextOfMasterArt {
+        font-size: 18px;
+    }
+    .RowOfFirstBlogPostt{
+        display: flex;
+        gap: 20px;
+    }
+    .RowOfBlogPost{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 520px) {
+    .FirstMainDivOfAdvertisement {
+        padding: 10px 10px 10px 10px;
+    }
+    .SecondMainDivOfAdvertisement{
+        padding: 10px 10px 10px 10px; 
+    }
+    .TextOfMasterArt {
+        font-size: 20px;
+    }
+    .RowOfFirstBlogPostt{
+        display: flex;
+        gap: 20px;
+    }
+    .RowOfBlogPost{
+        display: flex;
+        gap: 20px;
+    }
+}
+@media (min-width: 521px) and (max-width: 767px) {
+    .FirstMainDivOfAdvertisement {
+        padding: 10px 10px 10px 10px;
+    }
+    .SecondMainDivOfAdvertisement{
+        padding: 10px 10px 10px 10px; 
+    }
+    .TextOfMasterArt {
+        font-family: Work Sans;
+        font-size: 22px;
+    }
+    .RowOfFirstBlogPostt{
+        display: flex;
+        gap: 20px;
+    }
+    .RowOfBlogPost{
+        display: flex;
+        gap: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .FirstMainDivOfAdvertisement {
+        padding: 10px 100px 10px 100px;
+    }
+    .SecondMainDivOfAdvertisement{
+        padding: 10px 100px 10px 100px; 
+    }
+    .TextOfMasterArt {
+        font-size: 17px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .FirstMainDivOfAdvertisement {
+        padding: 10px 110px 10px 110px;
+    }
+    .SecondMainDivOfAdvertisement{
+        padding: 10px 110px 10px 110px; 
+    }
+    .TextOfMasterArt {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,85 @@
+
+.Card {
+    flex: 1 1 195px; /* Set the base width to 202px */
+    height: 112px;
+    width: 195px; /* Ensure the default width is 202px */
+    max-width: 320px; /* Allow the card to grow, but set a max width */
+    border: 1px solid #ccc; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    display: flex; /* Flexbox for card content alignment */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    transition: transform 0.2s, width 0.2s; /* Animation effect on hover */
+    padding: 10px; /* Padding for inner content */
+}
+
+.Card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Specific background colors for each card */
+.Card1 {
+    background-color: #2185F7; /* Background color for Card 1 */
+}
+
+.Card2 {
+    background-color: #9BCAFF; /* Background color for Card 2 */
+}
+
+.Card3 {
+    background-color: #2185F7; /* Background color for Card 3 */
+}
+
+.Card4 {
+    background-color: #9BCAFF; /* Background color for Card 4 */
+}
+
+/* Card Content styling */
+.CardContent {
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    height: 100%; /* Fill the height of the card */
+    justify-content: center; /* Space out rows */
+    width: 100%; /* Full width */
+}
+
+.Row1 {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+}
+
+.Row2 {
+    display: flex; /* Flexbox for second row */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center vertically */
+    font-size: 14px; /* Font size for the second row */
+}
+
+.TotalCount {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/* Growth styling */
+.Growth {
+    display: flex; /* Flexbox for growth icon and text */
+    align-items: center; /* Center vertically */
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Card {
+        width: 90%; /* Full width on small screens */
+        max-width: 300px; /* Limit max width */
+    }
+}

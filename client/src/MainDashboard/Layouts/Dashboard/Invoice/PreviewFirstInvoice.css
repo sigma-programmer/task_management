@@ -1,0 +1,367 @@
+.invoice-container {
+  padding: 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  /* width: 210mm;  */
+  width: 210mm; 
+  min-height: 297mm; 
+  margin: 0 auto; /* Center the container horizontally */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+}
+
+/* Optional: Add a print media query to handle printing properly */
+@media print {
+  .invoice-container {
+    box-shadow: none; /* Remove shadow for print */
+  }
+}
+
+
+.invoice-header {
+  background: #EEDDFA;
+  padding: 20px;
+  height: 270px;
+}
+
+.HeadingOfInvoice {
+  font-family: YoungSerif;
+  font-size: 64px;
+  font-weight: 600;
+  text-align: left;
+  color: #E87117;
+}
+
+.SpanOfInvoice {
+  font-family: Inter;
+  font-size: 43px;
+  font-weight: 600;
+  text-align: left;
+  color: #1A1C21;
+}
+
+.SecondColumnOfCompanyDetails {
+  text-align: end;
+}
+.invoice-info-left{
+  display: flex;
+  flex-direction: column;
+ min-height: 100%;
+  justify-content: space-between;
+}
+.ParaOfcompany-details {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+  color: #1A1C21;
+  margin: 0;
+}
+
+.SecondParaOfCompany-details {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #5E6470;
+  margin: 0;
+}
+
+.ThirdParaOfCompany-details {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  color: #5E6470;
+  margin: 2px;
+}
+
+.Second-company-details {
+  margin-top: 23px;
+}
+
+.SecondColumnOfFirstInvoice {
+  text-align: end;
+  padding-top: 11px;
+}
+
+.ImagesOfCircleIntaskr {
+  width: 58px;
+  height: 58px;
+  border-radius: 50px;
+}
+
+.AnkerOfIntasker {
+  text-align: end;
+}
+
+.MainDivOfCircleIntaskr {
+  display: flex;
+  gap: 15px;
+}
+
+.ParagraphOfThankuBusiness {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1A1C21;
+  display: flex;
+  align-items: center;
+}
+
+.DivOfInvoiceFooter {
+  /* padding: 20px; */
+  padding: 8px;
+  background: #EEDDFA;
+}
+
+.SecondDivOfInvoicee {
+  padding: 20px;
+ 
+}
+
+.FirstInvoiceOfTrrk {
+  border-top: 0.5px solid #D7DAE0;
+  display: flex;
+  justify-content: space-between;
+}
+.ForthItemOfTextTableInvoice{
+  text-align: end;
+}
+.FirstInvoiceOfTrr {
+  border-top:  0.5px solid #D7DAE0;
+  height: 45px;
+}
+
+.FirstInvoiceOfThead{
+  height: 45px;
+
+}
+
+.DivVOfInvoice-tabble {
+  width: 100%;
+  
+  border-radius: 20px;
+  padding: 9px;
+  min-height: 700px;
+
+  border: 0.5px solid #D7DAE0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  /* height: 100%; */
+}
+
+.invoice-table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .invoice-header, .invoice-info {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .company-details, .Second-company-details {
+      text-align: left; /* Center-align for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  /* .invoice-container {
+      padding: 15px;
+  } */
+
+  .HeadingOfInvoice {
+      font-size: 32px; /* Adjust font size for smaller screens */
+  }
+
+  .SpanOfInvoice {
+      font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .invoice-info-left {
+      font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
+.Invoice-ttbodyup{
+  height: 80%;
+}
+.Invoice-ttbodydown{
+  height: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item-name{
+
+
+  font-family: Inter;
+
+font-weight: 600;
+
+text-align: left;
+
+}
+
+
+
+
+
+.invoice-button {
+  background-color: #4C63ED; /* Primary color */
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.invoice-button:hover {
+  background-color: #3B52E0; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.invoice-button:active {
+  background-color: #2F44C1; /* Even darker on click */
+  transform: translateY(0); /* Reset lift on click */
+}
+
+.print-button {
+  background-color: #4C63ED; /* Blue for print */
+}
+
+.save-button {
+  background-color: #2BC48A; /* Green for save */
+}
+
+.save-button:hover {
+  background-color: #25A675; /* Darker green on hover */
+}
+
+.save-button:active {
+  background-color: #1E875D; /* Even darker green on click */
+}
+/* -------------------------------- */
+
+/* Close Button */
+.close-button111 {
+  color: #f44336; /* Red for close */
+ 
+  font-size: 16px;
+  font-weight: 500;
+ 
+  border: none;
+  border-radius: 50px; /* Rounded button for close */
+  cursor: pointer;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.close-button111 .close-icon {
+  font-size: 18px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.close-button111:hover {
+  background-color: #e53935; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.close-button111:active {
+  background-color: #d32f2f; /* Even darker red on click */
+  transform: translateY(0); /* Reset lift on click */
+}
+
+
+/* ----------ADDED BY SAMIRAN -----06-12-2024------- */
+
+.mAINhEADERiNVOICE{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.BillingToInvoice121{
+  width: 50%;
+  display: flex;
+  align-items:flex-start;
+  justify-content: start;
+}
+
+.cOMPANYaDDRESS321{
+  display: flex;
+  align-items:flex-start;
+  justify-content: end;
+  width: 50%;
+  
+}
+
+.BodyInvoiceMain32434{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  
+}
+.LeftSideBodyInvoice212{
+  width: 20%;
+  /* display: flex;
+  align-items:flex-start;
+  justify-content: start; */
+}
+.RightSideMainInvoice32322{
+  width: 80%;
+  /* display: flex;
+  align-items:flex-start;
+  justify-content: start; */
+}
+
+
+.MainLoadedInvoicePreviewBody{
+  width: 100vw;
+  max-width: 100vw;
+  overflow-y: auto;
+  overflow-x: auto;
+  max-height: 80vh;
+
+}
+
+
+
+
+
+
+
+
+.PreviewInvoiceMainBox{
+  padding-top: 30px;
+}

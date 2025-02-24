@@ -1,0 +1,183 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --light-primary: #e9ecef;
+    --dark-grey: #495057;
+    --border-radius: 0.25rem;
+    --icon-size: 24px;
+    --font-size: 16px;
+    --font-another-size: 14px;
+    --font-date-size: 12px;
+    --font-family-type: Inter;
+}
+
+.RightSidebar {
+    height: 100%;
+    width: 100%;
+    /* border-left: 1px solid #b0b0b0; */
+    /* border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; */
+    padding: 20px;
+    background-color: var(--light);
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+}
+.RightSidebar.closed1  {
+
+    width: 0;
+    padding: 0;
+}
+  /* RightSidebar.css */
+.RightSidebar1 {
+    width: 0; /* Initially hidden */
+    transition: width 0.3s ease; /* Smooth transition */
+  }
+  
+  .RightSidebar1.open {
+    width: 25%; /* Width when open */
+  }
+  
+  .RightSidebar1.closed {
+    width: 0; /* Width when closed */
+  }
+  
+/* Custom scrollbar styling */
+.RightSidebar::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+  }
+  
+  /* Track (background) */
+  .RightSidebar::-webkit-scrollbar-track {
+    background: transparent; /* Make the track transparent */
+  }
+  
+  /* Handle */
+  .RightSidebar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent handle color */
+    
+    border-radius: 10px; /* Rounded corners for the scrollbar handle */
+  }
+  
+  /* Hover effect on the scrollbar handle */
+  .RightSidebar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+  }
+/* Notification Styles */
+.NotificationPart {
+    margin-bottom: 20px;
+}
+
+.NotificationHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+
+    /* padding: 10px; */
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.readmessage {
+    /* background-color: #f0f0f0; 
+    color: #777; Darker color for text */
+    /* text-decoration: line-through; Strikethrough to indicate read status */
+}
+
+.unreadMessage {
+    background-color: #f0f0f0; 
+    /* background-color: #fff; White background for unread messages */
+    color: #000; /* Dark color for unread text */
+}
+.NotificationIcon {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    margin-right: 10px;
+}
+
+.NotificationTitle {
+    font-size: var(--font-another-size);
+    color: var(--dark);
+    font-family: var(--font-family-type);
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.NotificationDate {
+    font-size: var(--font-date-size);
+    /* color: var(--secondary-color); */
+    color:#007bff;
+    font-family: var(--font-family-type);
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.NotificationGroupHeading {
+    font-family: var(--font-family-type);
+    font-size: var(--font-another-size);
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Contacts Styles */
+.Contacts {
+    margin-top: 20px;
+}
+
+.ContactsHeading {
+    font-family: var(--font-family-type);
+    font-size: var(--font-another-size);
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ContactItem {
+    margin-bottom: 15px;
+}
+
+.ContactIcon {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    margin-right: 10px;
+}
+
+.ContactName {
+    font-size: var(--font-another-size);
+    color: var(--dark-grey);
+    font-family: var(--font-family-type);
+    font-weight: 400;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .RightSidebar {
+        padding: 15px;
+    }
+
+    .NotificationTitle,
+    .ContactName {
+        font-size: 12px; /* Smaller text for smaller screens */
+    }
+
+    .NotificationIcon,
+    .ContactIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .NotificationGroupHeading,
+    .ContactsHeading {
+        font-size: 14px;
+    }
+}

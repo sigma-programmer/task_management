@@ -1,0 +1,271 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Invoice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+
+        .invoice-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .header .amount-due {
+            text-align: right;
+        }
+
+        .amount-due p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .amount-due span {
+            font-size: 24px;
+            color: #1E90FF;
+            font-weight: bold;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .details div {
+            width: 30%;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        .details strong {
+            font-weight: 600;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #1E90FF;
+            color: white;
+        }
+
+        table td {
+            text-align: center;
+        }
+
+        .totals {
+            margin-top: 20px;
+        }
+
+        .totals p {
+            text-align: right;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .totals strong {
+            font-weight: bold;
+        }
+
+        .powered-by {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+
+        .powered-by a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+
+        .powered-by a:hover {
+            text-decoration: underline;
+        }
+
+        .actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .actions button {
+            background-color: #1E90FF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .actions button img {
+            margin-right: 8px;
+        }
+
+        .actions button:hover {
+            background-color: #007BFF;
+        }
+
+        @media (max-width: 768px) {
+            .details {
+                flex-direction: column;
+            }
+
+            .details div {
+                width: 100%;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .header .amount-due {
+                text-align: left;
+                margin-top: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h2 {
+                font-size: 20px;
+            }
+
+            .amount-due span {
+                font-size: 20px;
+            }
+
+            .table th, .table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invoice-container">
+        <div class="header">
+            <h2>esdrtfgyhuijkol</h2>
+            <p><strong>Invoice #:</strong> 8</p>
+
+            <div class="amount-due">
+                <p>Amount Due:</p>
+                <span>$1.03</span>
+            </div>
+        </div>
+
+        <div class="details">
+            <div>
+                <p><strong>Billed to:</strong></p>
+                <p>esrdgfthjk</p>
+                <p>esrdtfgyhjukl</p>
+                <p>wertyguhkj</p>
+            </div>
+            <div>
+                <p><strong>Billed From:</strong></p>
+                <p>esdrtfgyhuijkol</p>
+                <p>sedrtfgyhijkl</p>
+                <p>esdrtfgyhuijkl</p>
+            </div>
+            <div>
+                <p><strong>Date of Issue:</strong></p>
+                <p>2024-09-28</p>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>QTY</th>
+                        <th>DESCRIPTION</th>
+                        <th>PRICE</th>
+                        <th>AMOUNT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ertyguhi - ertfyguhijok</td>
+                        <td>$1.00</td>
+                        <td>$1.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="totals">
+            <p><strong>Subtotal:</strong> $1.00</p>
+            <p><strong>Tax:</strong> $0.07</p>
+            <p><strong>Discount:</strong> $0.04</p>
+            <p><strong>Total:</strong> $1.03</p>
+        </div>
+
+        <div class="powered-by">
+            <p>Powered by @Intaskr <a href="https://intaskr.com" target="_blank">https://intaskr.com</a></p>
+        </div>
+
+        <div class="actions">
+            <button>
+                <img src="https://img.icons8.com/ios-filled/24/ffffff/send-letter.png" alt="Send Icon">
+                Send Invoice
+            </button>
+            <button>
+                <img src="https://img.icons8.com/ios-filled/24/ffffff/download.png" alt="Download Icon">
+                Download Copy
+            </button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+

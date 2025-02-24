@@ -1,0 +1,190 @@
+.thousandConnect {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4032000005245209px;
+    text-align: center;
+    color: #050505;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.SecthousandConnect {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.5249999761581421px;
+    text-align: center;
+    color: #00000066;
+    margin-top: 30px;
+}
+
+.ImageOfPixerFrame {
+    width: 100%;
+    height: auto;
+}
+
+.MainDivOfGirl {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+/* p {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.DivOfArchitagirl {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LineOfHr2 {
+    width: 250px;
+    /* border: 10px solid black; */
+    height: 10px;
+    background: #050505;
+    border-radius: 5px;
+  
+}
+
+/* .RowOfContact {
+    margin-top: 100px;
+} */
+
+.FirstTextOfContact {
+    font-family: Inter;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -1.6270999908447266px;
+    text-align: left;
+    color: #050505;
+}
+
+.SecTextOfContact {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.45px;
+    letter-spacing: -0.004749999847263098px;
+    text-align: left;
+    color: #00000099;
+    margin-bottom: 15px;
+}
+
+.MainDivOfSupport {
+    background: #F9F5F1;
+    width: 90%;
+    /* height: 274px; */
+    padding: 21px 16px 20px 21px;
+}
+
+.DivOfDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.TextOfLooking{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 22.5px;
+text-align: left;
+margin-top: 19px;
+}
+.LabelOfName{
+    font-family: Inter;
+font-size: 12.5px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.10125000029802322px;
+text-align: left;
+}
+.SpanOfName{
+    font-family: Inter;
+font-size: 12.5px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.10125000029802322px;
+text-align: left;
+}
+.InputOfName{
+height: 36px;
+padding: 8px 10px 8px 10px;
+border-radius: 5px;
+/* color: #FFFFFF; */
+box-shadow: 0px 0px 0px 1px #0F0F0F1A inset;
+}
+.InputOfName2{
+    height: 86px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    /* color: #FFFFFF; */
+    box-shadow: 0px 0px 0px 1px #0F0F0F1A inset;
+    }
+
+
+
+
+
+
+
+/* Styles for screens between 320px and 540px */
+@media (max-width: 991px) and (min-width: 320px) {
+    .DivOfDiv div  br{
+      display: none;
+    }
+}
+/* Styles for screens between 320px and 540px */
+@media (max-width: 353px) and (min-width: 320px) {
+   .TextOfLooking {
+      margin-top: 90px;
+    }
+}
+/* Styles for screens between 320px and 540px */
+@media (max-width: 991px) and (min-width: 768px) {
+   .TextOfLooking {
+      margin-top: 50px;
+    }
+    .FirstTextOfContact{
+        text-align: center;
+    }
+
+
+    
+
+
+}
+/* Styles for screens between 320px and 540px */
+@media (max-width: 767px) and (min-width: 320px) {
+   .TextOfLooking {
+      margin-top: 50px;
+    }
+    .FirstTextOfContact{
+        text-align: center;
+       font-size: 28px;
+    }
+    .SecTextOfContact{
+        text-align: center;
+
+    }
+    .FirstTextOfContact br{
+      display: none;
+    }
+
+
+    
+.MainDivOfSupport {
+   
+    width: 100%;
+  
+}
+
+}

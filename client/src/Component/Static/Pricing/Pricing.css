@@ -1,0 +1,1153 @@
+
+
+
+
+.Prricing {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    color: #00000099;
+    padding-top: 15px;
+}
+
+.ColumnOfCardEle {
+    width: 50%;
+}
+
+.TextOfOneTool {
+    font-family: Inter;
+    font-size: 43px;
+    font-weight: 700;
+    text-align: left;
+    color: #050505;
+
+}
+
+.Trusted {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: left;
+    color: #00000099;
+}
+
+.MainDivOfImagess {
+    display: flex;
+    gap: 20px;
+}
+
+.ParagraphOfInstaCalender {
+    font-family: Inter;
+    font-size: 13.5px;
+    font-weight: 400;
+    text-align: center;
+    color: #9D34DA;
+    background: #F6F5F4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.FirstRowOfadd-on {
+    background: #F6F5F4;
+    border: 2px solid #F6F5F4;
+    border-radius: 12px;
+    padding-top: 30px;
+}
+
+.ImageOfCalenderFrame {
+    width: 100%;
+    height: 380px;
+}
+
+.ParagraphOfOptionalAddOn {
+    font-family: Inter;
+    font-size: 13.5px;
+    font-weight: 600;
+    text-align: left;
+    color: #9D34DA;
+}
+
+.ParaOfIntaskarCalendar {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #050505;
+
+}
+
+.ParagraphOfAnnually {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #050505;
+}
+
+.FirstWorkFaster {
+    font-family: Inter;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: left;
+    color: #050505;
+}
+
+.ParagraphOfGenerateSummaries {
+    font-family: Inter;
+    font-size: 13.5px;
+    font-weight: 400;
+    text-align: left;
+    color: #050505;
+}
+
+.MainDivOfButtons {
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.ButtonOfGetStarted {
+    width: 116px;
+    height: 36px;
+    padding: 5.5px 13.02px 7.5px 14px;
+    border-radius: 5px;
+    background: #9D34DA;
+    box-shadow: 0px 4px 9px 0px #0000000D;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.ButtonOfReadFAQ {
+    width: 124px;
+    height: 36px;
+    padding: 5.5px 14.33px 7.5px 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #00000026;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #121212;
+}
+
+.TextOfCustomersLoveUs {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #050505;
+    padding-top: 80px;
+}
+
+.RowOfBestGoogle {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.TextOfBesttGoogle {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: #050505;
+}
+
+.ParagraphOfBestGoogle {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #00000099;
+}
+
+.ColumnOfUsersLoveUs {
+    display: flex;
+    justify-content: end;
+}
+
+.SecondRowOfBestGooglee {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.NumberOfGoogleBest {
+    font-family: Inter;
+    font-size: 53px;
+    font-weight: 700;
+    text-align: center;
+    color: #00000099;
+}
+
+.TextOfGoogleBest {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #00000099;
+}
+
+.ColumnOfBestGooglee {
+    border-right: 1px solid #352f2f99;
+
+}
+
+.TextOfThousandConnected {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #050505;
+    padding-top: 70px;
+}
+
+.MainDivOfPixerFrame {
+    display: flex;
+    justify-content: center;
+}
+
+.ParagraphOfHallmarks {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #00000066;
+    padding-top: 15px;
+}
+
+.MainDivOfFreelancer {
+    display: flex;
+    justify-content: center;
+}
+
+.ArchitaTiwari {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #111111;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.Freelancer {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #00000099;
+}
+
+.MainDivOfImageCustomerLovePic {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.TextOfInnovativeTeams {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #050505;
+    padding-top: 50px;
+}
+
+.ButtonOfReadAllCust {
+    width: 242px;
+    height: 41px;
+    top: 96px;
+    padding: 5.5px 12.28px 6.5px 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #00000026;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: #121212;
+    padding-top: 10px;
+
+}
+
+.ImageOfInnovativeTeam {
+    display: flex;
+    justify-content: end;
+}
+
+.RowOfInnovatiteTeam {
+    margin-top: 80px;
+}
+
+.RowOfAdaptsneeds {
+    margin-top: 50px;
+}
+
+.ParagraphOfWorkSpace {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #00000099;
+}
+
+.MAinDivOfImageOfPerson {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.MainDivOfImageInstakr {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.TryInstaskrToday {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #050505;
+    padding-top: 10px;
+}
+
+.ParagraphOfTryInstaskr {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #00000099;
+}
+
+.ButtonOfFreeInstaskr {
+    width: 146px;
+    height: 36px;
+    padding: 5.5px 14.72px 7.5px 13px;
+    border-radius: 5px;
+    background: #EA4E43;
+    box-shadow: 0px 4px 9px 0px #0000000D;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 100px;
+}
+
+.SecondParagraphOfFreeInstakr {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #00000099;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+.SpanOfDemo {
+    text-decoration: underline;
+}
+
+.MainDivOffImagesInstakkr {
+    padding-bottom: 40px;
+}
+
+.RowwOfCard {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.CardOfPricing {
+    width: 25%;
+    padding: 0px;
+}
+
+.ImageOfCrdPricing {
+    width: 36px;
+    height: 40px;
+}
+
+.DivOffWrite {
+    display: flex;
+    gap: 4px;
+}
+
+.IamgeOffWrite {
+    width: 15px;
+    height: 15px;
+    color: #00000066;
+}
+
+.ParaOfWritee {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #050505;
+}
+
+.Free {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFBB33;
+    padding-top: 10px;
+}
+
+.Plus {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #0A85D1;
+    padding-top: 10px;
+}
+
+.SpanOfPlus {
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 500;
+    text-align: left;
+    color: #00000099;
+    background: #F6F5F4;
+}
+
+.Business {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #EA4E43;
+}
+
+.ParaOfCardPrricing {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #050505;
+}
+
+.ParaaOfFrreee {
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 600;
+    text-align: left;
+    color: #050505;
+}
+
+.ParaaOfUnlimitedFree {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #00000099;
+}
+
+.ButtonOfPricingGetStarted {
+    width: 246px;
+    height: 36px;
+    padding: 7.5px 79.19px 8.5px 79.39px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #00000026;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: #121212;
+}
+
+.ButtonOfPricingGetStartedd {
+    width: 246px;
+    height: 36px;
+    padding: 7.5px 79.19px 8.5px 79.39px;
+    border-radius: 5px;
+    background: #EA4E43;
+    box-shadow: 0px 4px 9px 0px #0000000D;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.DDivOfPrricingFree {
+    background: #F6F5F4;
+    padding: 20px 12px 13px 12px;
+    height: 390px;
+}
+
+.FirstDDivOfPrricingFree {
+    padding: 12px 12px 0px 12px;
+}
+
+.DivOfEmailCard {
+    display: flex;
+    gap: 10px;
+}
+
+.ImagesOfElephantt {
+    width: 36px;
+    height: 40px;
+}
+
+.SecondImagesOfElephantt {
+    width: 80px;
+    height: 80px;
+}
+
+.MainDivOfSecondElephantt {
+    display: flex;
+    justify-content: center;
+}
+
+.MainDivOfSecondElephantt1 {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.TextOfTryInstakrTooday {
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 700;
+    text-align: center;
+    color: #050505;
+    padding-top: 15px;
+}
+
+.ParagraphOfTryInstakrTooday {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #00000099;
+}
+
+.ButtonOfTryInstakrFree {
+    width: 146px;
+    height: 36px;
+    padding: 5.5px 14.72px 7.5px 13px;
+    border-radius: 5px;
+    background: #EA4347;
+    box-shadow: 0px 4px 9px 0px #0000000D;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.ButtonOfTryInstakrFreeee {
+    width: 146px;
+    height: 36px;
+    padding: 5.5px 14.72px 7.5px 13px;
+    border-radius: 5px;
+    background: #EA4347;
+    box-shadow: 0px 4px 9px 0px #0000000D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.ParaaaOfBigTeamm {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #00000099;
+    padding-top: 15px;
+}
+
+.SpanOfBigTeamm {
+    text-decoration: underline;
+}
+
+.InputOfInstakrTodayFree {
+    width: 364px;
+    height: 36px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #0F0F0F1A inset;
+}
+
+.MainDivOfInputInstakr {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.ColumnOfEmailDiv {
+    padding: 10px;
+}
+
+.TextOfEvernote {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #050505;
+    margin-top: 5px;
+}
+
+.TextOfBasic {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #050505;
+}
+
+.HeadingOfEight {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: #050505;
+}
+
+.BilledMonthly {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #00000099;
+}
+
+.MainDdivOfHeadingEight {
+    background: #F6F5F4;
+    padding: 10px;
+}
+
+.MainSecondDivOfEightWrite {
+    margin-top: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.ImageOfPricingggDiv{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+}
+@media (min-width: 320px) and (max-width: 420px) {
+    .ImasgesOfCustLoovePic {
+        width: 100%;
+        height: auto;
+    }
+
+    .MainDivOfImagessPixer {
+        width: 17%;
+        height: auto;
+    }
+
+    .ImageOfMainDivOfPixerFrame {
+        width: 100%;
+        height: auto;
+    }
+
+    .MainDivOfImagess {
+        display: flex;
+        gap: 9px;
+    }
+
+    .ImageOfPricinggg {
+        width: 80%;
+    }
+
+    .ImagesOfTrryInstakrTodayy {
+        width: 100%;
+        height: auto;
+    }
+
+    .TextOfOneTool {
+        font-family: Inter;
+        font-size: 20px;
+    }
+
+    .RowwOfCard {
+        display: flex;
+    }
+
+    .CardOfPricing {
+        width: 72%;
+        padding: 0px;
+    }
+    .ParagraphOfAnnually br {
+        display: none;
+    }
+    .ParagraphOfBestGoogle br {
+        display: none;
+    }
+    .ParagraphOfHallmarks br {
+        display: none;
+    }
+
+    .TextOfTryInstakrTooday {
+        font-family: Inter;
+        font-size: 26px;
+    }
+
+    .TextOfEvernote {
+        font-size: 17px;
+    }
+
+    .HeadingOfEight {
+        font-size: 30px;
+    }
+
+    .TextOfCustomersLoveUs {
+        font-size: 30px;
+    }
+
+    .ParagraphOfBestGoogle {
+        font-size: 13px;
+
+    }
+
+    .ColumnOfUsersLoveUs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ColumnOfBestGooglee {
+        border-right: none;
+    }
+
+    .TextOfThousandConnected {
+        font-size: 23px;
+    }
+
+    .ParagraphOfHallmarks {
+        font-size: 20px;
+    }
+
+    .TextOfInnovativeTeams {
+        font-size: 24px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .MainDivOfButtonOfReadAllCust{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ButtonOfFreeInstaskr {
+        margin-left: 114px;
+        margin-top: 28px;
+    }
+
+    .SecondParagraphOfFreeInstakr {
+        margin-left: 64px;
+    }
+
+    .MainDivOfImageInstakr {
+        display: flex;
+        justify-content: center;
+        margin-top: 43px;
+    }
+
+    .TryInstaskrToday {
+        font-size: 30px;
+    }
+
+    .ImageOfInnovativeTeam {
+        display: flex;
+        justify-content: end;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 620px) {
+    .ImasgesOfCustLoovePic {
+        width: 100%;
+        height: auto;
+    }
+
+    .MainDivOfImagessPixer {
+        width: 17%;
+        height: auto;
+    }
+
+    .ImageOfMainDivOfPixerFrame {
+        width: 100%;
+        height: auto;
+    }
+
+    .MainDivOfImagess {
+        display: flex;
+        gap: 11px;
+    }
+
+    .ImageOfPricinggg {
+        width: 80%;
+    }
+
+    .ImagesOfTrryInstakrTodayy {
+        width: 100%;
+        height: auto;
+    }
+
+    .TextOfOneTool {
+        font-family: Inter;
+        font-size: 20px;
+    }
+
+    .RowwOfCard {
+        display: flex;
+        /* flex-direction: column; */
+    }
+.TextOfBasic br {
+    display: none;
+}
+.ParagraphOfHallmarks br {
+    display: none;
+}
+    .CardOfPricing {
+        width: 53%;
+        padding: 0px;
+    }
+
+    .TextOfTryInstakrTooday {
+        font-family: Inter;
+        font-size: 26px;
+    }
+
+    .TextOfEvernote {
+        font-size: 17px;
+    }
+
+    .HeadingOfEight {
+        font-size: 30px;
+    }
+
+    .TextOfCustomersLoveUs {
+        font-size: 30px;
+    }
+
+    .ParagraphOfBestGoogle {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .ColumnOfUsersLoveUs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ColumnOfBestGooglee {
+        border-right: none;
+    }
+
+    .TextOfThousandConnected {
+        font-size: 28px;
+    }
+
+    .ParagraphOfHallmarks {
+        font-size: 23px;
+    }
+
+    .TextOfInnovativeTeams {
+        font-size: 24px;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .ButtonOfFreeInstaskr {
+        margin-left: 168px;
+        margin-top: 28px;
+    }
+
+    .SecondParagraphOfFreeInstakr {
+        margin-left: 120px;
+    }
+
+    .MainDivOfImageInstakr {
+        display: flex;
+        justify-content: center;
+        margin-top: 43px;
+    }
+
+    .TryInstaskrToday {
+        font-size: 30px;
+    }
+
+    .ImageOfInnovativeTeam {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .TextOfBesttGoogle {
+        text-align: center;
+    }
+
+    .MainDivOfButtonOfReadAllCust {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ColumnOfCardEle {
+        width: 50%;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 767px) {
+    .ImasgesOfCustLoovePic {
+        width: 100%;
+        height: auto;
+    }
+
+    .MainDivOfImagessPixer {
+        width: 17%;
+        height: auto;
+    }
+
+    .ImageOfMainDivOfPixerFrame {
+        width: 100%;
+        height: auto;
+    }
+
+    .MainDivOfImagess {
+        display: flex;
+        gap: 12px;
+    }
+
+    .ImageOfPricinggg {
+        width: 80%;
+    }
+
+    .ImagesOfTrryInstakrTodayy {
+        width: 100%;
+        height: auto;
+    }
+
+    .TextOfOneTool {
+        font-family: Inter;
+        font-size: 20px;
+    }
+
+    .RowwOfCard {
+        display: flex;
+    }
+
+    .CardOfPricing {
+        width: 53%;
+        padding: 0px;
+    }
+.ParagraphOfHallmarks br {
+    display: none;
+}
+    .TextOfTryInstakrTooday {
+        font-family: Inter;
+        font-size: 26px;
+    }
+
+    .TextOfEvernote {
+        font-size: 17px;
+    }
+
+    .HeadingOfEight {
+        font-size: 30px;
+    }
+
+    .TextOfCustomersLoveUs {
+        font-size: 30px;
+    }
+
+    .ParagraphOfBestGoogle {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .ColumnOfUsersLoveUs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ColumnOfBestGooglee {
+        border-right: none;
+    }
+
+    .TextOfInnovativeTeams {
+        text-align: center;
+    }
+
+    .ButtonOfFreeInstaskr {
+        margin-left: 203px;
+        margin-top: 28px;
+    }
+
+    .SecondParagraphOfFreeInstakr {
+        margin-left: 153px;
+    }
+
+    .MainDivOfImageInstakr {
+        display: flex;
+        justify-content: center;
+        margin-top: 43px;
+    }
+
+    .ImageOfInnovativeTeam {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .TextOfBesttGoogle {
+        text-align: center;
+    }
+
+    .MainDivOfButtonOfReadAllCust {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ColumnOfCardEle {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 867px) {
+    .TextOfOneTool {
+        font-size: 30px;
+    }
+    .MainDivOfImagess {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 24px;
+    }
+    .ImageOfPricinggg{
+        width: 100%;
+        height: 252px;
+    }
+    .MainDivOfImagessPixer{
+        width: 16%;
+    }
+    .ImasgesOfCustLoovePic{
+        width: 100%;
+        height: auto;
+    }
+    .CardOfPricing {
+        width: 37%;
+        padding: 0px;
+    }
+    .MainDivOfColumnOfUsersLoveUs{
+        width: 200px;
+height: 200px;
+    }
+    .TextOfBesttGoogle {
+        font-family: Inter;
+        font-size: 21px;
+    }
+    .ParagraphOfBestGoogle br {
+        /* font-size: 11px; */
+        display: none;
+    }
+    .NumberOfGoogleBest {
+        font-size: 35px;
+    }
+    .ImageOfMainDivOfPixerFrame{
+        width: 100%;
+        height: auto;
+    }
+    .ButtonOfFreeInstaskr {
+        margin-left: 46px;
+    }
+    .SecondParagraphOfFreeInstakr {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 868px) and (max-width: 1000px) {
+    .TextOfOneTool {
+        font-size: 30px;
+    }
+    .MainDivOfImagess {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 24px;
+    }
+ .ImageOfPricinggg{
+    width: 100%;
+    height: 243px;
+ }
+    .ImasgesOfCustLoovePic{
+        width: 100%;
+        height: auto;
+    }
+    .CardOfPricing {
+        width: 37%;
+        padding: 0px;
+    }
+    .MainDivOfColumnOfUsersLoveUs{
+        width: 200px;
+height: 200px;
+    }
+    .TextOfBesttGoogle {
+        font-family: Inter;
+        font-size: 21px;
+    }
+    .ParagraphOfBestGoogle {
+        font-size: 11px;
+    }
+    .NumberOfGoogleBest {
+        font-size: 35px;
+    }
+    .ImageOfMainDivOfPixerFrame{
+        width: 100%;
+        height: auto;
+    }
+    .ButtonOfFreeInstaskr {
+        margin-left: 46px;
+    }
+    .SecondParagraphOfFreeInstakr {
+        margin-left: 0px;
+    }
+     .MainDivOfImagessPixer{
+        width: 80px;
+     }
+}
+
+@media (min-width: 1001px) and (max-width: 1150px) {
+    .TextOfOneTool {
+        font-size: 36px;
+    }
+    .ButtonOfPricingGetStarted {
+        width: 215px;
+        height: 36px;
+        padding: 7px 59px 8px 59px;
+    }
+    .ButtonOfPricingGetStartedd{
+        width: 215px;
+        height: 36px;
+        padding: 7px 59px 8px 59px;
+    }
+    .NumberOfGoogleBest {
+        font-family: Inter;
+        font-size: 40px;
+    }
+}

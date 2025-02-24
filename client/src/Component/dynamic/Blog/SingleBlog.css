@@ -1,0 +1,126 @@
+
+.MainDivOfShowBlog{
+    padding: 67px 174px 50px 175px;
+}
+.ButtonOfTechnology{
+    width: 101px;
+height: 32px;
+padding: 6px 12px 6px 12px;
+border-radius: 6px;
+background: #4B6BFB;
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+text-align: left;
+color: #FFFFFF;
+border: none;
+margin-bottom: 21px;
+}
+.TextOfImpactTechnology{
+font-family: Work Sans;
+font-size: 36px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+color: #181A2A;
+margin-bottom: 20px;
+}
+.MainDivOfImpactTechnology{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ImageOfImpactTechnology{
+    width: 28px;
+height: 28px;
+border-radius: 50px;
+}
+.PersonNAmeOfTraceyWilson{
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+color: #696A75;
+margin: 0px;
+}
+.ImageOfTechnologyBlog{
+    width: 100%;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.ParagraphOfTravling{
+font-family: Source Serif Pro;
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+color: #3B3C4A;
+}
+.TextOfResearch{
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+text-align: left;
+color: #181A2A;
+margin-top: 35px;
+}
+.DivOfTravelingExpose{
+    width: 100%;
+height: 128px;
+padding: 32px 32px 32px 32px;
+border-radius: 12px;
+border: none;
+background: #F6F6F7;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.TextOfTravelingExpose{
+font-family: Source Serif Pro;
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+text-align: left;
+color: #181A2A;
+}
+.MainDivOfAdvertisement{
+    width: 100%;
+padding: 25px 25px 25px 25px;
+border-radius: 12px;
+background: #E8E8EA;
+margin-bottom: 25px;
+}
+.TextOfAdvertisement{
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+color: #696A75;
+margin: 0px;
+}
+.TextOfYouCanPlaceAds{
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+color: #696A75;
+margin: 0px;
+}
+.TextOfNumber{
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+color: #696A75;
+margin: 0px;
+}
+.ImageOfFrequentlyAskQustion{
+    width: 100%;
+    height: auto;
+}
+.TextOfFrequentlyAskedQuestions{
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+color: #000000;
+}

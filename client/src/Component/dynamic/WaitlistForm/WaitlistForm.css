@@ -1,0 +1,141 @@
+.waitlist-overlay {
+  position: fixed; /* Use fixed instead of absolute to cover the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ensure it covers the entire viewport height */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.waitlist-modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+}
+
+
+/* .waitlist-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.waitlist-modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+} */
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.waitlist-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.waitlist-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.required {
+  color: red;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-input[type="text"],
+.form-input[type="email"],
+.form-input[type="tel"] {
+  height: 40px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+
+
+
+.community-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.community-icons .icon {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.community-icons .whatsapp {
+  color: #25D366; /* WhatsApp green */
+}
+
+.community-icons .telegram {
+  color: #0088cc; /* Telegram blue */
+}
+
+.community-icons .discord {
+  color: #7289da; /* Discord blurple */
+}
+
+.community-icons .icon:hover {
+  opacity: 0.8; /* Slight opacity change on hover */
+}

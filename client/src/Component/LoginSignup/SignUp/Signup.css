@@ -1,0 +1,108 @@
+.MainDivOfLogoSign {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ImageOfLogoSign {
+    width: 150px;
+}
+
+.MainDivOfAllstOfWorkEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.TextOfSignUp {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.MainDivOfWorkEmail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.LabelOfWorkEmail, .LabelOfPassword {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.InputOfWorkEmail {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.ParagraphOfSignAgreement {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.SpanOfSignAgreement {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.ParaOfSign {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.DivOfSignWith {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.IconOfSignWith {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.SignInAccount {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.ButtonOfSignIntaskar {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .TextOfSignUp {
+        font-size: 1.2rem;
+    }
+
+    .InputOfWorkEmail {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .IconOfSignWith {
+        font-size: 1.2rem;
+    }
+
+    .ButtonOfSignIntaskar {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}

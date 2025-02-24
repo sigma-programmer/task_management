@@ -1,0 +1,398 @@
+.BlogEditorWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #f8f9fe;
+}
+
+.BlogEditorContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+.BlogEditorMain {
+  flex: 1;
+  height: 100%;
+  padding: 1rem;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.BlogEditorMain.WithSidebar {
+  padding-right: 1rem;
+  max-width: calc(100% - 463px);
+}
+
+.EditorHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.EditorTitle {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #160647;
+}
+
+.HeaderActions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  color: inherit;
+}
+
+.ButtonCreate {
+  color: #219D98;
+  border-bottom: 2px solid #219D98;
+  box-shadow: 0 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.SectionTitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #160647;
+  margin-bottom: 1rem;
+  margin-top: 2.188rem;
+}
+
+.TextMuted {
+  color: #000000 !important;
+}
+
+.TitleInput,
+.ContentInput,
+.MetaInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ContentInput {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.ToolbarContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  background: #ffffff;
+  padding: 0.75rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  width: fit-content;
+  min-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.ButtonTool:hover {
+  background-color: #f0f0f0;
+}
+
+.ButtonSend {
+  margin-left: auto;
+  color: #95A8B2;
+  padding-left: 5rem;
+}
+
+.EditorSidebar {
+  width: 463px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  overflow-y: auto;
+  margin-top: 1.05rem;
+}
+
+.SidebarHeader5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.MetaSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.InputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 15px;
+}
+
+.MetaLabel {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #160647;
+}
+
+.SidebarActions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.ButtonSave,
+.ButtonPublish,
+.ButtonFaq {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #372868;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.ButtonSave:hover,
+.ButtonPublish:hover,
+.ButtonFaq:hover {
+  background-color: #2a1f4f;
+  color: white;
+}
+
+.QuillEditor {
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.ql-container {
+  min-height: 200px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-family: inherit;
+}
+
+.ql-toolbar {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #f8f9fa;
+  border: 1px solid #e2e8f0;
+}
+
+.ql-editor {
+  min-height: 200px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.FaqItem {
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.FaqHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.FaqInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.ButtonRemove {
+  color: #ef4444;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.ButtonRemove:hover {
+  background: #fee2e2;
+}
+
+/* Keep all existing styles and add these new styles for the meta dropdowns */
+
+.MetaGroupHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+.MetaGroupTitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #160647;
+}
+
+.MetaGroupIcon {
+  width: 20px;
+  height: 20px;
+  color: #160647;
+}
+
+.MetaGroupContent {
+  padding-top: 1rem;
+}
+
+.MetaGroup {
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect for the header */
+.MetaGroupHeader:hover {
+  background-color: #f8f9fe;
+  border-radius: 4px;
+  padding: 0.5;
+}
+.SectionTitle {
+  margin-top: 2.5rem;
+}
+
+.TitleSection {
+  margin-top: 2rem;
+}
+.ThumbnailSection {
+  margin: 20px 0;
+}
+
+.ThumbnailPreview {
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.FileInput {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .EditorSidebar {
+    width: 400px;
+  }
+  
+  .BlogEditorMain.WithSidebar {
+    max-width: calc(100% - 400px);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .EditorSidebar {
+    width: 350px;
+  }
+  
+  .BlogEditorMain.WithSidebar {
+    max-width: calc(100% - 350px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .BlogEditorContainer {
+    flex-direction: column;
+  }
+
+  .BlogEditorMain.WithSidebar {
+    max-width: 100%;
+    padding-right: 1rem;
+  }
+
+  .EditorSidebar {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .ToolbarContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .EditorHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .HeaderActions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.BlogEditorMain,
+.EditorSidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #372868 #f0f0f0;
+
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.BlogEditorMain::-webkit-scrollbar,
+.EditorSidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.BlogEditorMain::-webkit-scrollbar-track,
+.EditorSidebar::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.BlogEditorMain::-webkit-scrollbar-thumb,
+.EditorSidebar::-webkit-scrollbar-thumb {
+  background-color: #372868;
+  border-radius: 3px;
+}
+
+
+
+.ThumbnailSection {
+  margin: 20px 0;
+}
+
+.ThumbnailPreview {
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
